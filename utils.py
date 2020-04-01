@@ -203,14 +203,16 @@ def get_asp_moment(cur_polarities, asp_loc):
 
     mean_sum = 0.0
     for i in range(l):
-        mean_sum += cur_polarities[i] * asp_loc[i]
+        # mean_sum += cur_polarities[i] * asp_loc[i]
+        mean_sum += cur_polarities[i]
     mean = mean_sum / l
 
     var_sum = 0.0
     for i in range(l):
-        var_sum += asp_loc[i] * ((mean - cur_polarities[i]) ** 2)
+        var_sum += (mean - cur_polarities[i]) ** 2
+        # var_sum += asp_loc[i] * ((mean - cur_polarities[i]) ** 2)
     var = var_sum / l
-    return [mean, 1 - mean], [var, 1 - var]
+    return [(mean + 1) / 2.0, 1 - (mean + 1) / 2.0], [var, 1 - var]
 
 
 def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, save_fname, select_method,

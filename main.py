@@ -24,7 +24,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', default='data/laptop/', type=str, help='data set')
     parser.add_argument('--select_method', default='sem', type=str,
                         help='sem for semantic-based selection, or pos for position-based selection')
-    parser.add_argument('--pre_processed', default=0, type=int, help='denote whether the data has been pre-processed')
+    parser.add_argument('--pre_processed', default=1, type=int, help='denote whether the data has been pre-processed')
 
     parser.add_argument('--gpu_id', default=0, type=int, help='gpu id')
     parser.add_argument('--embedding_dim', default=300, type=int, help='dimension of embedding vectors')
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_epoch', default=200, type=int, help='number of epochs')
     parser.add_argument('--early_stopping_num', default=40, type=int, help='number of epochs for early stopping')
     parser.add_argument('--n_class', default=3, type=int, help='number of classes')
-    parser.add_argument('--n_hop', default=4, type=int, help='number of layers in the memory network')
+    parser.add_argument('--n_hop', default=2, type=int, help='number of layers in the memory network')
     parser.add_argument('--learning_rate', default=0.002, type=float, help='learning rate')
     parser.add_argument('--l2_reg', default=0.001, type=float, help='weight of L2 regularization term')
     parser.add_argument('--dropout', default=0.5, type=float, help='dropout rate')

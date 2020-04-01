@@ -42,7 +42,9 @@ class DSMN_SAIM(nn.Module):
         self.asp_att1 = nn.Linear(self.hidden_size, 1).cuda()
         self.asp_att2 = nn.Linear(self.hidden_size * 2, self.hidden_size).cuda()
 
+        self.mean_linear1 = nn.Linear(self.hidden_size * 2, self.hidden_size * 2).cuda()
         self.var_linear1 = nn.Linear(self.hidden_size * 2, self.hidden_size * 2).cuda()
+        self.mean_linear2 = nn.Linear(self.hidden_size * 2, 2).cuda()
         self.var_linear2 = nn.Linear(self.hidden_size * 2, 2).cuda()
 
         self.attention = nn.Linear(self.hidden_size * 2, self.hidden_size * 2).cuda()
@@ -53,8 +55,8 @@ class DSMN_SAIM(nn.Module):
         #     self.avepool.append(nn.AvgPool2d((1 + i * 2, 1), stride=(1, 1), padding=(i, 0)).cuda())
 
         self.aspect_attention = nn.Linear(self.hidden_size * 2, self.hidden_size * 2).cuda()
-        self.gate = nn.Linear(self.hidden_size * 4, self.hidden_size * 2).cuda()
-        self.fuse = nn.Linear(self.hidden_size * 4, self.hidden_size * 2).cuda()
+        self.gate = nn.Linear(self.hidden_size * 6, self.hidden_size * 2).cuda()
+        self.fuse = nn.Linear(self.hidden_size * 6, self.hidden_size * 2).cuda()
         self.predict_linear = nn.Linear(self.hidden_size * 2, 3).cuda()
         # self.predict_linear = nn.Linear(self.hidden_size * 6, 3).cuda()
         self.loss = torch.nn.CrossEntropyLoss()
@@ -108,6 +110,7 @@ class DSMN_SAIM(nn.Module):
         sentence_infos = torch.tensor(data['sentence_infos']).type(torch.cuda.FloatTensor)
         sentence_locs = torch.tensor(data['sentence_locs']).type(torch.cuda.FloatTensor)
         aspect_locs = torch.tensor(data['aspect_locs']).type(torch.cuda.FloatTensor)
+        aspect_means = torch.tensor(data['aspect_means']).type(torch.cuda.FloatTensor)
         aspect_vars = torch.tensor(data['aspect_vars']).type(torch.cuda.FloatTensor)
         labels = torch.tensor(data['labels']).type(torch.cuda.LongTensor)
 
@@ -119,13 +122,14 @@ class DSMN_SAIM(nn.Module):
 
         max_sentence_len = sentence_outputs.size()[1]
 
-        specific_aspects, specific_aspect_lens, specific_aspect_vars = [], [], []
+        specific_aspects, specific_aspect_lens, specific_aspect_means, specific_aspect_vars = [], [], [], []
         specific_sentence_infos, specific_sentence_locs, specific_sentence_outputs, specific_sentence_lens = [], [], [], []
         specific_nums, specific_labels = [], []
         total_num = 0
         for i in range(len(sentences)):
             specific_aspects.append(aspects[i, :num[i], :])
             specific_aspect_lens.append(aspect_lens[i, :num[i]])
+            specific_aspect_means.append(aspect_means[i, :num[i], :])
             specific_aspect_vars.append(aspect_vars[i, :num[i], :])
             specific_sentence_infos.append(sentence_infos[i, :num[i], :, :])
             specific_sentence_locs.append(sentence_locs[i, :num[i], :max_sentence_len])
@@ -139,6 +143,7 @@ class DSMN_SAIM(nn.Module):
 
         specific_aspects = torch.cat(specific_aspects, dim=0)
         specific_aspect_lens = torch.cat(specific_aspect_lens, dim=0)
+        specific_aspect_means = torch.cat(specific_aspect_means, dim=0)
         specific_aspect_vars = torch.cat(specific_aspect_vars, dim=0)
         specific_sentence_infos = torch.cat(specific_sentence_infos, dim=0)
         specific_sentence_locs = torch.cat(specific_sentence_locs, dim=0)
@@ -215,6 +220,7 @@ class DSMN_SAIM(nn.Module):
         weighted_sentence_outputs = sentence_outputs_weight * specific_sentence_outputs
         weighted_sentence_outputs = weighted_sentence_outputs.view(-1, max_sentence_len, self.hidden_size * 2)
         sentence_output = torch.sum(weighted_sentence_outputs, dim=1)
+        mean_vec = self.mean_linear1(sentence_output)
         var_vec = self.var_linear1(sentence_output)
 
         sen_asp_output, specific_var_vec, specific_glo_vec = [], [], []
@@ -247,19 +253,24 @@ class DSMN_SAIM(nn.Module):
 
         specific_glo_vec = torch.cat(specific_glo_vec, dim=0).view(total_num, self.hidden_size * 2)
 
-        global_feature = torch.cat([specific_glo_vec, var_vec], dim=-1)
+        global_feature = torch.cat([specific_glo_vec, mean_vec, var_vec], dim=-1)
         global_feature = self.fuse(global_feature)
         global_feature = (specific_nums > 1).float().unsqueeze(-1).expand(total_num,
                                                                           self.hidden_size * 2) * global_feature
 
+        pmean = self.mean_linear2(global_feature)
         pvar = self.var_linear2(global_feature)
-        sentence_cost = self.soft_cross_entropy(pvar, specific_aspect_vars)
+        # print(pmean, pvar)
+        # print(specific_aspect_means, specific_aspect_vars)
+        sentence_cost =  self.soft_cross_entropy(pmean, specific_aspect_means) + self.soft_cross_entropy(pvar, specific_aspect_vars)
         sentence_cost = (specific_nums > 1).float() * sentence_cost
         sentence_cost = torch.mean(sentence_cost)
 
+        gate_mean_vec = (specific_nums > 1).float().unsqueeze(-1).expand(total_num,
+                                                                          self.hidden_size * 2) * mean_vec
         gate_var_vec = (specific_nums > 1).float().unsqueeze(-1).expand(total_num,
                                                                           self.hidden_size * 2) * var_vec
-        gate_rep = torch.cat([e, gate_var_vec], dim=-1)
+        gate_rep = torch.cat([e, gate_mean_vec, gate_var_vec], dim=-1)
         gate_res = self.sigmoid(self.gate(gate_rep))
         final_rep = gate_res * e + (1 - gate_res) * global_feature
         # multi aspect

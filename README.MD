@@ -1,6 +1,6 @@
 # DMMN-SDCM
 
-A Tensorflow implementation for DSMN-SAIM
+A Tensorflow implementation for DSMN-SAIM.
 
 ## Quick Start
 

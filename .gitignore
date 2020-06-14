@@ -1,3 +1,4 @@
-res.*
+res*.txt
+log
 models
 __pycache__/

@@ -1,4 +1,5 @@
 res*.txt
 log
-models
+models/
+data/
 __pycache__/

@@ -55,8 +55,8 @@ class DSMN_SAIM(nn.Module):
         #     self.avepool.append(nn.AvgPool2d((1 + i * 2, 1), stride=(1, 1), padding=(i, 0)).cuda())
 
         self.aspect_attention = nn.Linear(self.hidden_size * 2, self.hidden_size * 2).cuda()
-        self.gate = nn.Linear(self.hidden_size * 6, self.hidden_size * 2).cuda()
-        self.fuse = nn.Linear(self.hidden_size * 6, self.hidden_size * 2).cuda()
+        self.gate = nn.Linear(self.hidden_size * 4, self.hidden_size * 2).cuda()
+        self.fuse = nn.Linear(self.hidden_size * 4, self.hidden_size * 2).cuda()
         self.predict_linear = nn.Linear(self.hidden_size * 2, 3).cuda()
         # self.predict_linear = nn.Linear(self.hidden_size * 6, 3).cuda()
         self.loss = torch.nn.CrossEntropyLoss()
@@ -253,7 +253,7 @@ class DSMN_SAIM(nn.Module):
 
         specific_glo_vec = torch.cat(specific_glo_vec, dim=0).view(total_num, self.hidden_size * 2)
 
-        global_feature = torch.cat([specific_glo_vec, mean_vec, var_vec], dim=-1)
+        global_feature = torch.cat([specific_glo_vec, var_vec], dim=-1)
         global_feature = self.fuse(global_feature)
         global_feature = (specific_nums > 1).float().unsqueeze(-1).expand(total_num,
                                                                           self.hidden_size * 2) * global_feature
@@ -270,7 +270,7 @@ class DSMN_SAIM(nn.Module):
                                                                           self.hidden_size * 2) * mean_vec
         gate_var_vec = (specific_nums > 1).float().unsqueeze(-1).expand(total_num,
                                                                           self.hidden_size * 2) * var_vec
-        gate_rep = torch.cat([e, gate_mean_vec, gate_var_vec], dim=-1)
+        gate_rep = torch.cat([e, gate_var_vec], dim=-1)
         gate_res = self.sigmoid(self.gate(gate_rep))
         final_rep = gate_res * e + (1 - gate_res) * global_feature
         # multi aspect

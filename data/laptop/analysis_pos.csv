@@ -1,0 +1,718 @@
+,sentence,aspect,ground_truth,predict_label,result
+0,"I bought a aspect_term for it, but don't always take it out;",cordless mouse,positive,negative,False
+1,-I propose that they can just swap the aspect_term.,hard drives,neutral,neutral,True
+2,"The 13"" Macbook Pro just fits in my aspect_term and with free aspect_term and no tax to CA this is the best aspect_term we can get for a great product.",budget,positive,positive,True
+3,"The 13"" Macbook Pro just fits in my aspect_term and with free aspect_term and no tax to CA this is the best aspect_term we can get for a great product.",shipping,positive,positive,True
+4,"The 13"" Macbook Pro just fits in my aspect_term and with free aspect_term and no tax to CA this is the best aspect_term we can get for a great product.",price,positive,positive,True
+5,I can't believe how quiet the aspect_term is and how quick this thing aspect_term.,hard drive,positive,positive,True
+6,I can't believe how quiet the aspect_term is and how quick this thing aspect_term.,boots up,positive,positive,True
+7,"Well I spilled something on it and they replaced it with this model, which gets hot and the aspect_term doesn't make it through 1 DVD.",battery,negative,negative,True
+8,The laptop was very easy to aspect_term.,set up,positive,positive,True
+9,"The video card is great for aspect_term, and above average for aspect_term, but not a gamers first choice.",media,positive,positive,True
+10,"The video card is great for aspect_term, and above average for aspect_term, but not a gamers first choice.",gaming,positive,positive,True
+11,The large aspect_term also helps when you are working in aspect_term like aspect_term.,screen,positive,positive,True
+12,The large aspect_term also helps when you are working in aspect_term like aspect_term.,design based programs,neutral,neutral,True
+13,The large aspect_term also helps when you are working in aspect_term like aspect_term.,Adobe Creative Suite,neutral,neutral,True
+14,"The aspect_term is bright and vivid and the aspect_term is very easy to use, very important for use quick typers.",screen,positive,positive,True
+15,"The aspect_term is bright and vivid and the aspect_term is very easy to use, very important for use quick typers.",keyboard,positive,positive,True
+16,Or the aspect_term would show up some place else.,cursor,negative,negative,True
+17,Everything is so easy and intuitive to aspect_term or aspect_term.,setup,positive,positive,True
+18,Everything is so easy and intuitive to aspect_term or aspect_term.,configure,positive,positive,True
+19,"The aspect_term I purchased this from sent it back,,,,,eventually I got a new or repaired machine approximately 3 weeks later.",tech store,negative,negative,True
+20,"The aspect_term randomly pops open when it is in my backpack as well, which is annoying.",DVD drive,negative,negative,True
+21,"The only thing that I have, is the aspect_term is a little dark to see the letters, would help if it was a little lighter then it is.",key broad,negative,negative,True
+22,"Also, the aspect_term makes a noisy click every time you use it.",space bar,negative,negative,True
+23,I thought the white Mac computers looked dirty too quicly where you use the aspect_term and where you place your hands when typing.,mousepad,neutral,negative,False
+24,"However, there are MAJOR issues with the aspect_term which render the device nearly useless.",touchpad,negative,negative,True
+25,I had 3 months when the aspect_term started going out.,ports,negative,negative,True
+26,No aspect_term in the new version there's no way I'm spending that kind of money on something has less aspect_term than the older version.,Cd Rom,neutral,negative,False
+27,No aspect_term in the new version there's no way I'm spending that kind of money on something has less aspect_term than the older version.,features,negative,negative,True
+28,"Not only are the versions of these aspect_term able to be saved, worked on and opened on both a PC and Mac, the versions of these aspect_term on a Mac are graphically and functionally superior.",programs,positive,neutral,False
+29,"Not only are the versions of these aspect_term able to be saved, worked on and opened on both a PC and Mac, the versions of these aspect_term on a Mac are graphically and functionally superior.",programs,positive,positive,True
+30,I wanted something that had a new aspect_term and aspect_term so that we could hook it up directly to our TV.,Intel Core processors,neutral,neutral,True
+31,I wanted something that had a new aspect_term and aspect_term so that we could hook it up directly to our TV.,HDMI port,neutral,neutral,True
+32,Once you get past learning how to use the poorly designed aspect_term you may feel frustrated.,Windows 8 Set-Up,negative,negative,True
+33,"As a die-hard aspect_term enthusiast, I shunned the idea of a Mac until this point.",Windows,positive,negative,False
+34,The people there just changed for me on the spot and I got a new aspect_term and they didn't even request for a receipt.,arm piece,positive,neutral,False
+35,"Would like more trendy, high tech aspect_term.",features,negative,positive,False
+36,"I like aspect_term, the apparent aspect_term, the aspect_term, all the nice aspect_term.",iTunes,positive,neutral,False
+37,"I like aspect_term, the apparent aspect_term, the aspect_term, all the nice aspect_term.",security,positive,neutral,False
+38,"I like aspect_term, the apparent aspect_term, the aspect_term, all the nice aspect_term.",Mini form factor,positive,neutral,False
+39,"I like aspect_term, the apparent aspect_term, the aspect_term, all the nice aspect_term.",graphics stuff,positive,positive,True
+40,aspect_term very smoothly.,Runs,positive,positive,True
+41,"My opinion of Sony has been dropping as fast as the stock market, given their horrible aspect_term, but this machine just caused another plunge.",support,negative,negative,True
+42,They need to stop outsoucing and send some complaint calls to US based aspect_term for those who live in the United states.,customer service agents,negative,negative,True
+43,"aspect_term is great, very quiet for all the typing that I do.",Keyboard,positive,positive,True
+44,"There is no need to purchase aspect_term, which saves me a lot of time and money.",virus protection for Mac,positive,negative,False
+45,MY aspect_term IS NOT WORKING.,TRACKPAD,negative,negative,True
+46,It took aspect_term 4 calls and 4 different aspect_term to correct the problem.,Toshiba tech support,negative,neutral,False
+47,It took aspect_term 4 calls and 4 different aspect_term to correct the problem.,techs,negative,neutral,False
+48,the aspect_term is really low to low for a laptopwas not expectin t aspect_term to be so lowan i hate that about this computer,volume,negative,negative,True
+49,the aspect_term is really low to low for a laptopwas not expectin t aspect_term to be so lowan i hate that about this computer,volume,negative,negative,True
+50,But the aspect_term is torn after one use.,arm velcro,negative,negative,True
+51,"i am a huge computer person i love anykind of computer that works well, but when i got this one i was so happy with the way it works and how it aspect_term its amazing.",runs,positive,positive,True
+52,It's been a couple weeks since the purchase and I'm struggle with finding the correct aspect_term (but that was expected).,keys,neutral,negative,False
+53,The aspect_term is quite low and virtually unusable in a room with any background activity.,audio volume,negative,negative,True
+54,"I love the aspect_term where I can simply drop a file ontop of a particular aspect_term, and the aspect_term will simply open that file.",dock,positive,neutral,False
+55,"I love the aspect_term where I can simply drop a file ontop of a particular aspect_term, and the aspect_term will simply open that file.",program,neutral,neutral,True
+56,"I love the aspect_term where I can simply drop a file ontop of a particular aspect_term, and the aspect_term will simply open that file.",program,positive,neutral,False
+57,"It is well worth the money it aspect_term, Very good investment.",cost,positive,positive,True
+58,The machine is slow to aspect_term and occasionally crashes completely.,boot up,negative,negative,True
+59,"Many people complain about the new aspect_term, and it's urgent for Apple to fix it asap!",OS,negative,positive,False
+60,It provides much more aspect_term.,flexibility for connectivity,positive,positive,True
+61,"But, for the aspect_term this is a winner.",cost,positive,positive,True
+62,Great aspect_term too.,wifi,positive,positive,True
+63,"I noticed aspect_term has a new system called aspect_term, what about us aspect_term users?  They should get all the bugs out of aspect_term before investing in a new system.",windows,neutral,neutral,True
+64,"I noticed aspect_term has a new system called aspect_term, what about us aspect_term users?  They should get all the bugs out of aspect_term before investing in a new system.",Windows 7,neutral,neutral,True
+65,"I noticed aspect_term has a new system called aspect_term, what about us aspect_term users?  They should get all the bugs out of aspect_term before investing in a new system.",Vista,neutral,neutral,True
+66,"I noticed aspect_term has a new system called aspect_term, what about us aspect_term users?  They should get all the bugs out of aspect_term before investing in a new system.",Vista,negative,neutral,False
+67,"But the aspect_term, in general was less than the worth of the cheap laptop.",quality,negative,negative,True
+68,The So called laptop aspect_term to Slow and I hate it!,Runs,negative,negative,True
+69,"I had a aspect_term but, i can't use it because it is not compatible.",USB connect,negative,negative,True
+70,A veryimportant feature is aspect_term which in my experience works better then aspect_term ( in PC enabled with aspect_term ) I was not originally sold on the aspect_term I felt it was inferior in many ways To aspect_term.,Firewire 800,positive,positive,True
+71,A veryimportant feature is aspect_term which in my experience works better then aspect_term ( in PC enabled with aspect_term ) I was not originally sold on the aspect_term I felt it was inferior in many ways To aspect_term.,USB3,negative,neutral,False
+72,A veryimportant feature is aspect_term which in my experience works better then aspect_term ( in PC enabled with aspect_term ) I was not originally sold on the aspect_term I felt it was inferior in many ways To aspect_term.,USB3,neutral,neutral,True
+73,A veryimportant feature is aspect_term which in my experience works better then aspect_term ( in PC enabled with aspect_term ) I was not originally sold on the aspect_term I felt it was inferior in many ways To aspect_term.,MAC OS,negative,negative,True
+74,A veryimportant feature is aspect_term which in my experience works better then aspect_term ( in PC enabled with aspect_term ) I was not originally sold on the aspect_term I felt it was inferior in many ways To aspect_term.,Windows 7,positive,neutral,False
+75,"Summary: I've had this laptop for 2 months, out of the blue the aspect_term stops working.",power adapter,negative,negative,True
+76,"Well, I have to say since I bought my Mac, I won't ever go back to any aspect_term.",Windows,negative,neutral,False
+77,The aspect_term of the laptop will make it worth the money.,durability,positive,positive,True
+78,The aspect_term of the MacBook is horrible and confusing;,layout,negative,negative,True
+79,"Another THREE weeks later I had my laptop back with a new aspect_term, aspect_term, and aspect_term.",mousepad,neutral,neutral,True
+80,"Another THREE weeks later I had my laptop back with a new aspect_term, aspect_term, and aspect_term.",keys,neutral,neutral,True
+81,"Another THREE weeks later I had my laptop back with a new aspect_term, aspect_term, and aspect_term.",casing,neutral,neutral,True
+82,Also stunning aspect_term and speedy,colors,positive,positive,True
+83,But the aspect_term of Mac Mini is a huge disappointment.,performance,negative,negative,True
+84,But I do NOT like aspect_term.,Win8,negative,negative,True
+85,"The aspect_term soon came off, too--a mark of poor aspect_term.",cover for the DVD drive,negative,negative,True
+86,"The aspect_term soon came off, too--a mark of poor aspect_term.",construction quality,negative,negative,True
+87,I'v spent as much for aspect_term as I would to buy a new netbook -- of course a different brand.,shipping,negative,negative,True
+88,The aspect_term are also very strong and picks up signals very easily.,internet capabilities,positive,positive,True
+89,""">  aspect_term is probably the best program I have ever worked with: easy and convenient.",iPhoto,positive,positive,True
+90,Had some trouble finding a aspect_term that it would fit in.,case,negative,negative,True
+91,wonderful aspect_term.,features,positive,positive,True
+92,I love aspect_term which is a vast improvment over aspect_term.,WIndows 7,positive,positive,True
+93,I love aspect_term which is a vast improvment over aspect_term.,Vista,negative,positive,False
+94,"It had a aspect_term malfunction after 10 minutes of general aspect_term, and would not move past this error.",cooling system,negative,negative,True
+95,"It had a aspect_term malfunction after 10 minutes of general aspect_term, and would not move past this error.",use,neutral,neutral,True
+96,I was happy with My purchase of a Toshiba Satellite L305D-S5934 laptop until it came time to have it repaired under the aspect_term.,Toshiba Warranty,negative,negative,True
+97,"As a lifelong aspect_term user, I was extremely pleased to make the change to Mac.",Windows,negative,negative,True
+98,Lightweight and the aspect_term is beautiful!,screen,positive,positive,True
+99,I 'have had it for about a 1 1/2 and yes I have had an issue with it one month out of aspect_term.,warranty,neutral,neutral,True
+100,However the frozen aspect_term kept happening.,screens,negative,negative,True
+101,"I took it in to the Apple store and guess what? They fixed it, no aspect_term out of pocket.",cost,negative,negative,True
+102,Quick and has aspect_term.,built in virus control,positive,positive,True
+103,"Everything about the Mac is not only visually appealing, but very easy to aspect_term.",use,positive,positive,True
+104,sometimes you will be moving your finger and the aspect_term will not even move.,pointer,negative,negative,True
+105,"I am overall very pleased with my toshiba satellite, I like the aspect_term, I love the aspect_term.",extra features,positive,positive,True
+106,"I am overall very pleased with my toshiba satellite, I like the aspect_term, I love the aspect_term.",windows 7 home premium,positive,positive,True
+107,aspect_term fast and the aspect_term is so much better.,Runs,positive,positive,True
+108,aspect_term fast and the aspect_term is so much better.,regular layout keyboard,positive,positive,True
+109,"I just bought the new MacBook Pro, the 13"" model, and I can't believe Apple keeps making the same mistake with regard to aspect_term.",USB ports,negative,negative,True
+110,The aspect_term that come standard with the aspect_term are enough for the average person to run all the basics.,programs,positive,positive,True
+111,The aspect_term that come standard with the aspect_term are enough for the average person to run all the basics.,Leopard running system,neutral,positive,False
+112,"The aspect_term is very intuitive, so much so that I never want to use aspect_term to click again!",touchpad,positive,positive,True
+113,"The aspect_term is very intuitive, so much so that I never want to use aspect_term to click again!",buttons,neutral,neutral,True
+114,"It has a very high aspect_term, just for what I needed for.",performance,positive,positive,True
+115,It seems they could have updated aspect_term and done without creating aspect_term.,XP,positive,positive,True
+116,It seems they could have updated aspect_term and done without creating aspect_term.,Vista,negative,neutral,False
+117,The aspect_term was easy to learn and navigate.,trackpad,positive,positive,True
+118,"The newer aspect_term took a little bit away from the previous gray one which looked really slick, but it is still a great notebook!",black keyboard,negative,positive,False
+119,We figure that after everything HIS pc actually ended up aspect_term $350 more than my original Mac.,costing,negative,negative,True
+120,But Sony said we could send it back and be charged for aspect_term an additional seventy something dollars.,adding the bluetooth,negative,neutral,False
+121,"aspect_term has not been a issue for me, like some others have meantioned.",Wireless,positive,negative,False
+122,The aspect_term gets smeary and dusty very quickly and it's very noticeable.,screen,negative,negative,True
+123,"Overall I feel this netbook was poor aspect_term, had poor aspect_term, although it did have great aspect_term when it did work.",quality,negative,negative,True
+124,"Overall I feel this netbook was poor aspect_term, had poor aspect_term, although it did have great aspect_term when it did work.",performance,negative,negative,True
+125,"Overall I feel this netbook was poor aspect_term, had poor aspect_term, although it did have great aspect_term when it did work.",battery life,positive,negative,False
+126,I love the aspect_term.,form factor,positive,positive,True
+127,The aspect_term broke after burning 3 DVD'd during that time!,DVD burner,negative,negative,True
+128,"I'm using this computer for aspect_term, aspect_term, some aspect_term, and I'm learning aspect_term.",word processing,neutral,neutral,True
+129,"I'm using this computer for aspect_term, aspect_term, some aspect_term, and I'm learning aspect_term.",web browsing,neutral,neutral,True
+130,"I'm using this computer for aspect_term, aspect_term, some aspect_term, and I'm learning aspect_term.",gaming,neutral,neutral,True
+131,"I'm using this computer for aspect_term, aspect_term, some aspect_term, and I'm learning aspect_term.",programming,neutral,neutral,True
+132,See when it comes to laptops you buy it and get just a normal aspect_term with trials of must need stuff that should come with it.,operating system,neutral,negative,False
+133,"The Macbook arrived in a nice aspect_term and sealed in the box, all the aspect_term works great.",twin packing,positive,positive,True
+134,"The Macbook arrived in a nice aspect_term and sealed in the box, all the aspect_term works great.",functions,positive,positive,True
+135,"If you don't feel comfortable doing it yourself, just buy the aspect_term and be happy, plus it looks nice, I bought the white one from Best Buy.",case,positive,negative,False
+136,"The aspect_term is also very user friendly, even for those that switch from a PC, with a little practice you can take full advantage of this aspect_term!",OS,positive,positive,True
+137,"The aspect_term is also very user friendly, even for those that switch from a PC, with a little practice you can take full advantage of this aspect_term!",OS,positive,positive,True
+138,But I wanted the Pro for the aspect_term.,CD/DVD player,positive,positive,True
+139,I'm learning the finger options for the aspect_term that allow for quicker aspect_term of web pages.,mousepad,positive,positive,True
+140,I'm learning the finger options for the aspect_term that allow for quicker aspect_term of web pages.,browsing,positive,positive,True
+141,"I have other computers that get strong aspect_term that don't drop in places that this ""net""book loses its aspect_term.",signals,positive,negative,False
+142,"I have other computers that get strong aspect_term that don't drop in places that this ""net""book loses its aspect_term.",signal,negative,negative,True
+143,"I even got my teenage son one, because of the aspect_term that it offers, like, aspect_term, aspect_term, aspect_term and more!",features,positive,positive,True
+144,"I even got my teenage son one, because of the aspect_term that it offers, like, aspect_term, aspect_term, aspect_term and more!",iChat,positive,positive,True
+145,"I even got my teenage son one, because of the aspect_term that it offers, like, aspect_term, aspect_term, aspect_term and more!",Photobooth,positive,positive,True
+146,"I even got my teenage son one, because of the aspect_term that it offers, like, aspect_term, aspect_term, aspect_term and more!",garage band,positive,positive,True
+147,"aspect_term well, and I am extremely happy to be back to an aspect_term.",Works,positive,positive,True
+148,"aspect_term well, and I am extremely happy to be back to an aspect_term.",apple OS,positive,neutral,False
+149,There also seemed to be a problem with the aspect_term as certain times aspect_term loads but claims to not be able to find any aspect_term or files.,hard disc,negative,negative,True
+150,There also seemed to be a problem with the aspect_term as certain times aspect_term loads but claims to not be able to find any aspect_term or files.,windows,negative,negative,True
+151,There also seemed to be a problem with the aspect_term as certain times aspect_term loads but claims to not be able to find any aspect_term or files.,drivers,neutral,negative,False
+152,It has bein into the shop to get a new aspect_term 2 times and to fix the aspect_term on the aspect_term!,hardrive,negative,neutral,False
+153,It has bein into the shop to get a new aspect_term 2 times and to fix the aspect_term on the aspect_term!,touch control buttons,negative,neutral,False
+154,It has bein into the shop to get a new aspect_term 2 times and to fix the aspect_term on the aspect_term!,keyboard,negative,negative,True
+155,"One night I turned the freaking thing off after using it, the next day I turn it on, no aspect_term, aspect_term all dark, aspect_term steady, aspect_term steady and not flashing as it usually does.",GUI,negative,neutral,False
+156,"One night I turned the freaking thing off after using it, the next day I turn it on, no aspect_term, aspect_term all dark, aspect_term steady, aspect_term steady and not flashing as it usually does.",screen,negative,neutral,False
+157,"One night I turned the freaking thing off after using it, the next day I turn it on, no aspect_term, aspect_term all dark, aspect_term steady, aspect_term steady and not flashing as it usually does.",power light,neutral,neutral,True
+158,"One night I turned the freaking thing off after using it, the next day I turn it on, no aspect_term, aspect_term all dark, aspect_term steady, aspect_term steady and not flashing as it usually does.",hard drive light,negative,neutral,False
+159,"this Mac Mini does not have a aspect_term, and it would seem that its aspect_term does not handle aspect_term properly.",built-in mic,neutral,negative,False
+160,"this Mac Mini does not have a aspect_term, and it would seem that its aspect_term does not handle aspect_term properly.",Mac OS 10.9,negative,negative,True
+161,"this Mac Mini does not have a aspect_term, and it would seem that its aspect_term does not handle aspect_term properly.",external microphones,neutral,negative,False
+162,aspect_term makes this computer almost unusable for aspect_term.,Windows Vista,negative,negative,True
+163,aspect_term makes this computer almost unusable for aspect_term.,online service,negative,negative,True
+164,"It is easy to aspect_term, its aspect_term easily accommodates large hands, and its aspect_term is fantasic.",use,positive,positive,True
+165,"It is easy to aspect_term, its aspect_term easily accommodates large hands, and its aspect_term is fantasic.",keyboard,positive,positive,True
+166,"It is easy to aspect_term, its aspect_term easily accommodates large hands, and its aspect_term is fantasic.",weight,positive,positive,True
+167,"But after using it a couple of weeks, the overall aspect_term is poor.",operation,negative,negative,True
+168,aspect_term updated ok but the aspect_term froze the aspect_term up and the computer shut down.,Drivers,positive,negative,False
+169,aspect_term updated ok but the aspect_term froze the aspect_term up and the computer shut down.,BIOS update,negative,negative,True
+170,aspect_term updated ok but the aspect_term froze the aspect_term up and the computer shut down.,system,negative,negative,True
+171,"The aspect_term is a little much, but when you start looking at the aspect_term it is worth the added cash.",price premium,negative,positive,False
+172,"The aspect_term is a little much, but when you start looking at the aspect_term it is worth the added cash.",features,positive,positive,True
+173,I can say that I am fully satisfied with the aspect_term that the computer has supplied.,performance,positive,positive,True
+174,"I was ready to take it back for a refund, but the aspect_term camed through and pointed me in the right direction to get it fixed.",Geek Squad,positive,negative,False
+175,"Then just the other day, my aspect_term snapped!","left ""mouse"" button",negative,negative,True
+176,I got this at an amazing aspect_term from Amazon and it arrived just in time.,price,positive,positive,True
+177,"aspect_term is awesome, aspect_term is good.",Screen,positive,positive,True
+178,"aspect_term is awesome, aspect_term is good.",battery life,positive,positive,True
+179,"I had of course bought a aspect_term, so I sent it in to be replaced and (almost 2 months later) the dv4 is what the sent me as a replacement.",3 year warranty,neutral,negative,False
+180,"Yes, they cost more, but they more than make up for it in aspect_term, aspect_term, and aspect_term.",speed,positive,positive,True
+181,"Yes, they cost more, but they more than make up for it in aspect_term, aspect_term, and aspect_term.",construction quality,positive,positive,True
+182,"Yes, they cost more, but they more than make up for it in aspect_term, aspect_term, and aspect_term.",longevity,positive,positive,True
+183,I am replacing the aspect_term with a aspect_term soon.,HD,neutral,neutral,True
+184,I am replacing the aspect_term with a aspect_term soon.,Micron SSD,neutral,neutral,True
+185,the only down fall is that it has no aspect_term but i found that they are very cheap to by and also very portable making this the best friend to someone who is always looking for more space then they have.,cd drive,negative,negative,True
+186,I have not had a problem with the aspect_term quitting or freezing.,applications,positive,negative,False
+187,"There is a small red circle next to it with a x in the middle, and when I click on it it says: "" Consider replacing your aspect_term"" and it does not hold full aspect_term.",battery,neutral,negative,False
+188,"There is a small red circle next to it with a x in the middle, and when I click on it it says: "" Consider replacing your aspect_term"" and it does not hold full aspect_term.",charge,negative,negative,True
+189,"I thought that it will be fine, if i do some aspect_term.",settings,neutral,negative,False
+190,I charge it at night and skip taking the aspect_term with me because of the good aspect_term.,cord,neutral,neutral,True
+191,I charge it at night and skip taking the aspect_term with me because of the good aspect_term.,battery life,positive,positive,True
+192,"I love the aspect_term, aspect_term, the aspect_term.",size,positive,positive,True
+193,"I love the aspect_term, aspect_term, the aspect_term.",keyboard,positive,positive,True
+194,"I love the aspect_term, aspect_term, the aspect_term.",functions,positive,positive,True
+195,This is a review of aspect_term.,windows vista system,neutral,negative,False
+196,"After a couple of years, my battery life began to diminish but was replaced for free due to a company-wide recall of my particular aspect_term.",battery,negative,negative,True
+197,"Overall, this laptop is definitely a keeper with its simple yet stylish aspect_term and its array of fantastic aspect_term to choose from.",design,positive,positive,True
+198,"Overall, this laptop is definitely a keeper with its simple yet stylish aspect_term and its array of fantastic aspect_term to choose from.",colors,positive,positive,True
+199,Asked the aspect_term.,customer service rep,neutral,neutral,True
+200,They say sorry out of aspect_term.,warranty,negative,negative,True
+201,Was very much worth the aspect_term i paid.,price,positive,positive,True
+202,This computer is also awesome for my sons aspect_term.,virtual home schooling,positive,positive,True
+203,"oh yeah, and if the fancy aspect_term breaks guess who you have to send it to to get it fixed?",webcam,negative,negative,True
+204,"When I got my laptop back after this first instance it worked okay for a little bit then I started expeirencing issues again, everything from aspect_term and aspect_term failing again, to it powering off for no reason, to locking up and freezing and just all sorts of issues.",programs,negative,neutral,False
+205,"When I got my laptop back after this first instance it worked okay for a little bit then I started expeirencing issues again, everything from aspect_term and aspect_term failing again, to it powering off for no reason, to locking up and freezing and just all sorts of issues.",drivers,negative,negative,True
+206,"It's not a wear-and-tear issue, not due to user carelessness and most importantly, they CAN'T guarantee the problem will be solved if it is sent for aspect_term and I have to accept the outcome.",service,negative,neutral,False
+207,aspect_term are all in weird places and is way too large for the way it is aspect_term.,keys,negative,negative,True
+208,aspect_term are all in weird places and is way too large for the way it is aspect_term.,designed,negative,negative,True
+209,"The laptop is relatively simple to aspect_term, though I bought  Macs for Dummies,  which is well worth $2",use,positive,positive,True
+210,"In November my computer messed up entirely and wouldn't power on after intalling a aspect_term, I had to have my aspect_term flashed and lost EVERYTHING on it, including my school assignments and irriplaceable pictures that were only in digital format and several other things, when this update was installed for some reason I was unable to roll back the aspect_term and everything to an earlier working condition because when the update was installed it deleted my history.",Windows update,neutral,neutral,True
+211,"In November my computer messed up entirely and wouldn't power on after intalling a aspect_term, I had to have my aspect_term flashed and lost EVERYTHING on it, including my school assignments and irriplaceable pictures that were only in digital format and several other things, when this update was installed for some reason I was unable to roll back the aspect_term and everything to an earlier working condition because when the update was installed it deleted my history.",HD,negative,negative,True
+212,"In November my computer messed up entirely and wouldn't power on after intalling a aspect_term, I had to have my aspect_term flashed and lost EVERYTHING on it, including my school assignments and irriplaceable pictures that were only in digital format and several other things, when this update was installed for some reason I was unable to roll back the aspect_term and everything to an earlier working condition because when the update was installed it deleted my history.",drivers,negative,negative,True
+213,"I contacted Acer and they are giving me FREE aspect_term, so don't go and pay for them, just ask for them and they should give them to you.",recovery DVDs,positive,neutral,False
+214,The aspect_term is not as shown in the product photos.,battery,negative,negative,True
+215,Even out of aspect_term!,warranty,neutral,positive,False
+216,"Compared to similarly spec'd PCs, this machine is good aspect_term, well aspect_term and aspect_term easily right out of the box.",value,positive,positive,True
+217,"Compared to similarly spec'd PCs, this machine is good aspect_term, well aspect_term and aspect_term easily right out of the box.",built,positive,positive,True
+218,"Compared to similarly spec'd PCs, this machine is good aspect_term, well aspect_term and aspect_term easily right out of the box.",works,positive,positive,True
+219,Its ease of aspect_term and the top aspect_term from Apple- be it their aspect_term or bellying up to the aspect_term - cannot be beat.,use,positive,positive,True
+220,Its ease of aspect_term and the top aspect_term from Apple- be it their aspect_term or bellying up to the aspect_term - cannot be beat.,service,positive,positive,True
+221,Its ease of aspect_term and the top aspect_term from Apple- be it their aspect_term or bellying up to the aspect_term - cannot be beat.,phone assistance,positive,positive,True
+222,Its ease of aspect_term and the top aspect_term from Apple- be it their aspect_term or bellying up to the aspect_term - cannot be beat.,genius bar,positive,positive,True
+223,Took a long time trying to decide between one with aspect_term and one without.,retina display,neutral,neutral,True
+224,It played various aspect_term without problems and ran aspect_term smoothly and flawlessly.,games,neutral,positive,False
+225,It played various aspect_term without problems and ran aspect_term smoothly and flawlessly.,aero,neutral,positive,False
+226,"Does everything I need it to, has a wonderful aspect_term and I couldn't be happier.",battery life,positive,positive,True
+227,Just beware no aspect_term so when I went to aspect_term I had on CD I couldn't.,DVD slot,neutral,negative,False
+228,Just beware no aspect_term so when I went to aspect_term I had on CD I couldn't.,install software,negative,negative,True
+229,Strong aspect_term in this device makes aspect_term of fun and a strong sense of the era of aspect_term This device serves all modern requirements is a very strong game and is very useful for designers.,performance,positive,positive,True
+230,Strong aspect_term in this device makes aspect_term of fun and a strong sense of the era of aspect_term This device serves all modern requirements is a very strong game and is very useful for designers.,use,positive,positive,True
+231,Strong aspect_term in this device makes aspect_term of fun and a strong sense of the era of aspect_term This device serves all modern requirements is a very strong game and is very useful for designers.,speed,positive,positive,True
+232,its as advertised on here..... it aspect_term great and is not a waste of money!,works,positive,positive,True
+233,I guess he was the aspect_term.,technical person,neutral,negative,False
+234,"I paid for extra aspect_term and the aspect_term, as well as the top of the line aspect_term and aspect_term.",memory,neutral,neutral,True
+235,"I paid for extra aspect_term and the aspect_term, as well as the top of the line aspect_term and aspect_term.",17-inch screen,neutral,neutral,True
+236,"I paid for extra aspect_term and the aspect_term, as well as the top of the line aspect_term and aspect_term.",DVD,positive,neutral,False
+237,"I paid for extra aspect_term and the aspect_term, as well as the top of the line aspect_term and aspect_term.",CD burners,positive,neutral,False
+238,With Windows laptops a aspect_term is an absolute must.,wireless mouse,neutral,positive,False
+239,The aspect_term I received from Toshiba went above and beyond the call of duty.,service,positive,negative,False
+240,"Whenever I call Dell about an unrelated problem, they ask me if my laptop is running slowly and if I'd like to purchase more aspect_term for $75.",memory,neutral,neutral,True
+241,He has replaced his aspect_term twice and (of course) has had to pay for aspect_term every year.,hard drive,negative,negative,True
+242,He has replaced his aspect_term twice and (of course) has had to pay for aspect_term every year.,antivirus software,negative,negative,True
+243,When you call aspect_term you were routed to someone who was in another country and did not know what they were doing.,tech support,negative,negative,True
+244,"The aspect_term was locekd and froze every time it was trying to be used, and the aspect_term would not work at all.",internet,negative,negative,True
+245,"The aspect_term was locekd and froze every time it was trying to be used, and the aspect_term would not work at all.",command prompt,negative,negative,True
+246,Easy to aspect_term and does not overheat as much as other laptops.,start up,positive,positive,True
+247,The aspect_term is great (I even put it to the test by accident)- excellent innovation!,magnetic plug-in power charging power cord,positive,positive,True
+248,"Sure, the initial out of pocket aspect_term is greater, but that should not dissuade anyone from the fact that these machines aspect_term like none other on the planet, and when I factor in all the money in that I wasted on Geek Squad and the latest patches to de-corrupt my infested PCs, it probably comes out about even anyhow.",expense,negative,positive,False
+249,"Sure, the initial out of pocket aspect_term is greater, but that should not dissuade anyone from the fact that these machines aspect_term like none other on the planet, and when I factor in all the money in that I wasted on Geek Squad and the latest patches to de-corrupt my infested PCs, it probably comes out about even anyhow.",run,positive,positive,True
+250,this apple navigates you thru the unexplored world of the aspect_term.,internet,neutral,positive,False
+251,aspect_term are incredibly long: over two minutes.,Startup times,negative,positive,False
+252,It's still beautiful and has better aspect_term than I could ever expect from a notebook.,color reproduction,positive,positive,True
+253,"The aspect_term is excellent, the aspect_term is excellent, and aspect_term is a  breeze.",battery life,positive,positive,True
+254,"The aspect_term is excellent, the aspect_term is excellent, and aspect_term is a  breeze.",display,positive,positive,True
+255,"The aspect_term is excellent, the aspect_term is excellent, and aspect_term is a  breeze.",downloading apps,positive,positive,True
+256,Did not enjoy the new aspect_term and aspect_term.,Windows 8,negative,neutral,False
+257,Did not enjoy the new aspect_term and aspect_term.,touchscreen functions,negative,neutral,False
+258,"I connect a aspect_term via the aspect_term, which is useful for aspect_term.",LaCie 2Big external drive,neutral,neutral,True
+259,"I connect a aspect_term via the aspect_term, which is useful for aspect_term.",firewire 800 interface,positive,neutral,False
+260,"I connect a aspect_term via the aspect_term, which is useful for aspect_term.",Time Machine,neutral,neutral,True
+261,(No problem with the ordering or aspect_term by the way.,shipping,positive,negative,False
+262,It is VERY easy to aspect_term on and feels great - besides the added aspect_term that the aspect_term is lighted.,type,positive,positive,True
+263,It is VERY easy to aspect_term on and feels great - besides the added aspect_term that the aspect_term is lighted.,feature,positive,positive,True
+264,It is VERY easy to aspect_term on and feels great - besides the added aspect_term that the aspect_term is lighted.,keyboard,positive,positive,True
+265,Enjoy that Toshib aspect_term and aspect_term unparalleled,force,positive,positive,True
+266,Enjoy that Toshib aspect_term and aspect_term unparalleled,durability,positive,positive,True
+267,"I sent it back and found this time that the aspect_term was faulty, so I got a new one and some other fixes they found.",battery,negative,negative,True
+268,"The fact that the aspect_term reacts to the lighting around you is an added luxury-when you are working around others in dark areas and want privacy or don't want to bother them with bright lighting, it is very convenient to have a darker, softer lit aspect_term.",screen,positive,positive,True
+269,"The fact that the aspect_term reacts to the lighting around you is an added luxury-when you are working around others in dark areas and want privacy or don't want to bother them with bright lighting, it is very convenient to have a darker, softer lit aspect_term.",screen,positive,positive,True
+270,"The aspect_term was completely dead, in fact it had grown about a quarter inch thick lump on the underside.",battery,negative,negative,True
+271,The machine is slow to aspect_term and occasionally crashes completely.,boot up,negative,negative,True
+272,For the [$] aspect_term (special offer) this is a great laptop.,price,positive,positive,True
+273,The sheer aspect_term and aspect_term makes the MacBook Pro a must have for any techie!,power,positive,positive,True
+274,The sheer aspect_term and aspect_term makes the MacBook Pro a must have for any techie!,flexibility,positive,positive,True
+275,aspect_term in a hurry and everything is ready to go.,Starts up,positive,positive,True
+276,"(I had been a aspect_term / aspect_term user before this) I love the aspect_term because the aspect_term is big enough for what I use it for (Internet, artwork), and yet it is small enough to be reasonably portable.",Windows,neutral,neutral,True
+277,"(I had been a aspect_term / aspect_term user before this) I love the aspect_term because the aspect_term is big enough for what I use it for (Internet, artwork), and yet it is small enough to be reasonably portable.",Linux,neutral,neutral,True
+278,"(I had been a aspect_term / aspect_term user before this) I love the aspect_term because the aspect_term is big enough for what I use it for (Internet, artwork), and yet it is small enough to be reasonably portable.",size,positive,neutral,False
+279,"(I had been a aspect_term / aspect_term user before this) I love the aspect_term because the aspect_term is big enough for what I use it for (Internet, artwork), and yet it is small enough to be reasonably portable.",screen,positive,negative,False
+280,It aspect_term in the morning in less than 30 seconds and I have never had any issues with it freezing.,fires up,positive,negative,False
+281,MY ONLY PROBLEM IS I CAN NOT REG. THE aspect_term.,PRODUCT KEY,negative,neutral,False
+282,aspect_term was higher when purchased on MAC when compared to aspect_term showing on PC when I bought this product.,Price,negative,neutral,False
+283,aspect_term was higher when purchased on MAC when compared to aspect_term showing on PC when I bought this product.,price,positive,negative,False
+284,You may need to special order a aspect_term.,bag,neutral,neutral,True
+285,From the aspect_term to the aspect_term this aspect_term beats aspect_term easily.,speed,positive,neutral,False
+286,From the aspect_term to the aspect_term this aspect_term beats aspect_term easily.,multi touch gestures,positive,neutral,False
+287,From the aspect_term to the aspect_term this aspect_term beats aspect_term easily.,operating system,positive,neutral,False
+288,From the aspect_term to the aspect_term this aspect_term beats aspect_term easily.,Windows,negative,neutral,False
+289,Take your time and go through the aspect_term patiently.,tutorials,neutral,neutral,True
+290,The aspect_term was a good choice.,gray color,positive,positive,True
+291,"It's been time for a new laptop, and the only debate was which aspect_term of the Mac laptops, and whether to spring for the aspect_term.",size,neutral,negative,False
+292,"It's been time for a new laptop, and the only debate was which aspect_term of the Mac laptops, and whether to spring for the aspect_term.",retina display,neutral,neutral,True
+293,"I considered I may have too much on the computer, but after looking, there was plenty of aspect_term and that is not the issue.",space,positive,positive,True
+294,I sent it back to Toshiba twice they covered it under the  aspect_term.,warranty,positive,negative,False
+295,"It is a REAL aspect_term, not the toy I saw in other brands.",touchpad,positive,negative,False
+296,The aspect_term is probably an hour at best.,battery life,negative,negative,True
+297,"Also, the aspect_term was a problem.",extended warranty,negative,negative,True
+298,"It is robust, with a friendly aspect_term as all Apple products.",use,positive,positive,True
+299,"Only other thing is that if you are using this for aspect_term Apple doesnt provide any kind of aspect_term ( such as works for aspect_term ), but aspect_term is cheap compared to aspect_term.",document creation,neutral,neutral,True
+300,"Only other thing is that if you are using this for aspect_term Apple doesnt provide any kind of aspect_term ( such as works for aspect_term ), but aspect_term is cheap compared to aspect_term.",word processor,negative,negative,True
+301,"Only other thing is that if you are using this for aspect_term Apple doesnt provide any kind of aspect_term ( such as works for aspect_term ), but aspect_term is cheap compared to aspect_term.",windows,neutral,neutral,True
+302,"Only other thing is that if you are using this for aspect_term Apple doesnt provide any kind of aspect_term ( such as works for aspect_term ), but aspect_term is cheap compared to aspect_term.",iwork,positive,positive,True
+303,"Only other thing is that if you are using this for aspect_term Apple doesnt provide any kind of aspect_term ( such as works for aspect_term ), but aspect_term is cheap compared to aspect_term.",office,negative,negative,True
+304,After that I turned to email in my next vain help to get them to acknowledge that the aspect_term was still valid.,warranty,neutral,negative,False
+305,Came with aspect_term and aspect_term already loaded.,iPhoto,neutral,neutral,True
+306,Came with aspect_term and aspect_term already loaded.,garage band,neutral,positive,False
+307,Didn't aspect_term when shipped from Walmart.com but went into a store and exchanged for a working laptop (same make/model).,work,negative,negative,True
+308,The Computer itself is a good product but the aspect_term stinks.,repair depot,negative,negative,True
+309,"PC users work in aspect_term, while Mac users work in aspect_term.",Word,neutral,neutral,True
+310,"PC users work in aspect_term, while Mac users work in aspect_term.",Pages,neutral,neutral,True
+311,The aspect_term almost looked like a barcode when it froze.,screen,negative,negative,True
+312,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",iWork,neutral,neutral,True
+313,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",programs,neutral,positive,False
+314,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",word processing,neutral,neutral,True
+315,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",spreadsheets,neutral,neutral,True
+316,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",presentations,neutral,neutral,True
+317,"I also purchased aspect_term to go with it which has aspect_term for aspect_term, aspect_term, and aspect_term ( similar to aspect_term ).",Microsoft Office,neutral,neutral,True
+318,This computer that I have has had issues with the aspect_term where it lost half the aspect_term.,keyboard,negative,negative,True
+319,This computer that I have has had issues with the aspect_term where it lost half the aspect_term.,keyboard functions,negative,negative,True
+320,"The keyboard, which generally felt okay even for someone used to a aspect_term, now looks terrible.",desktop keyboard,neutral,negative,False
+321,Also kinda loud when the aspect_term was running.,fan,negative,negative,True
+322,The aspect_term is amazingly long at 7hrs and 5hrs if you use it.,battery life,positive,positive,True
+323,You can call HP and they want you to buy more aspect_term to fix it.,software,neutral,negative,False
+324,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",Sony Sonic Stage software,neutral,neutral,True
+325,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",speakers,positive,neutral,False
+326,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",subwoofer,positive,neutral,False
+327,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",bluetooth mouse,neutral,neutral,True
+328,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",bluetooth enabled,negative,neutral,False
+329,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",extended life battery,neutral,neutral,True
+330,"That included the extra aspect_term, the aspect_term and the aspect_term I got (that WAS worth the money), the aspect_term for my supposedly aspect_term computer, the aspect_term and the aspect_term.",Docking port,neutral,neutral,True
+331,"I upgraded it's aspect_term to 2GB, I am very happy with it.",RAM,positive,positive,True
+332,"Great Laptop for the aspect_term, aspect_term well with aspect_term.",price,positive,positive,True
+333,"Great Laptop for the aspect_term, aspect_term well with aspect_term.",works,positive,positive,True
+334,"Great Laptop for the aspect_term, aspect_term well with aspect_term.",action pack games,neutral,positive,False
+335,I am loving the fast aspect_term also.,performance,positive,positive,True
+336,Many kinds of aspect_term that is necessary to the working person is not available and cannot be downloaded.,software,negative,negative,True
+337,I took off a star because the machine has a lot of junk aspect_term on it.,software,negative,negative,True
+338,The aspect_term shows great aspect_term.,screen,positive,positive,True
+339,The aspect_term shows great aspect_term.,colors,positive,positive,True
+340,PC never worked right even after aspect_term fixed.,BIOS,negative,negative,True
+341,"The aspect_term of this is better than the Toshiba, too.",feel,positive,positive,True
+342,I was amazed at how fast the aspect_term was.,delivery,positive,positive,True
+343,the only fact i dont like about apples is they generally use aspect_term and i dont use aspect_term but after i install aspect_term i love every single bit about it.,safari,negative,neutral,False
+344,the only fact i dont like about apples is they generally use aspect_term and i dont use aspect_term but after i install aspect_term i love every single bit about it.,safari,negative,neutral,False
+345,the only fact i dont like about apples is they generally use aspect_term and i dont use aspect_term but after i install aspect_term i love every single bit about it.,Mozzilla firfox,positive,neutral,False
+346,"Though please note that sometimes it crashes, and the aspect_term isnt superb.",sound quality,negative,positive,False
+347,The troubleshooting said it was the aspect_term so we ordered a new one.,AC adaptor,neutral,negative,False
+348,It is good to know that I can mobilize without having to worry about the aspect_term.,battery life,positive,neutral,False
+349,(but aspect_term can be purchased) IF I ever need a laptop again I am for sure purchasing another Toshiba!!,Office,neutral,negative,False
+350,the aspect_term are hard to push.,mouse buttons,negative,negative,True
+351,"From the get-go, the M6809 was unsteady in its aspect_term;",operation,negative,negative,True
+352,This is a nicely aspect_term laptop with lots of aspect_term and long aspect_term.,sized,positive,positive,True
+353,This is a nicely aspect_term laptop with lots of aspect_term and long aspect_term.,processing power,positive,positive,True
+354,This is a nicely aspect_term laptop with lots of aspect_term and long aspect_term.,battery life,positive,positive,True
+355,With the needs of a professional photographer I generally need to keep up with the best aspect_term.,specs,neutral,positive,False
+356,when i called to have another one shipped or to get my money back they said the aspect_term is 23 twenty three days from the date of purchase.,return policy,negative,negative,True
+357,"The sound as mentioned earlier isn't the best, but it can be solved with aspect_term.",headphones,neutral,negative,False
+358,But you must get the aspect_term.,15 inch,positive,neutral,False
+359,THE aspect_term IS TERRIFIC!!,CUSTOMER SERVICE,positive,positive,True
+360,It is lightweight and the perfect aspect_term to carry to class.,size,positive,positive,True
+361,"Note, however, that any existing aspect_term you have will not work with the aspect_term.",MagSafe accessories,neutral,neutral,True
+362,"Note, however, that any existing aspect_term you have will not work with the aspect_term.",MagSafe 2 connection,negative,neutral,False
+363,Plus aspect_term as a replacement for the aspect_term is surprisingly intuitive.,two finger clicking,positive,positive,True
+364,Plus aspect_term as a replacement for the aspect_term is surprisingly intuitive.,right click button,neutral,positive,False
+365,they had to replace the aspect_term in April,motherboard,negative,negative,True
+366,"I also love the small, convenient aspect_term of my laptop, making it a perfect tool for my academic studies.",size,positive,positive,True
+367,"I work in film editing and post production, so I need a laptop that not only has aspect_term, but aspect_term and aspect_term as well.",power,neutral,positive,False
+368,"I work in film editing and post production, so I need a laptop that not only has aspect_term, but aspect_term and aspect_term as well.",memory,neutral,positive,False
+369,"I work in film editing and post production, so I need a laptop that not only has aspect_term, but aspect_term and aspect_term as well.",speed,neutral,positive,False
+370,and the aspect_term is the worst ever.,speakers,negative,negative,True
+371,But I needed a laptop for aspect_term.,school use,neutral,neutral,True
+372,"I know that everyone thinks Macs are overpriced and overrated, but once you get past the initial aspect_term you'll find that they're worth every penny (besides, there's always the financing plan that Best Buy offers).",expense,negative,positive,False
+373,The aspect_term are great.,graphics,positive,positive,True
+374,Second aspect_term has walls inside that need to be broken if you what to install one.,HDD cover,neutral,negative,False
+375,"Great laptop for school, easy to aspect_term for beginners in the household.",use,positive,positive,True
+376,The aspect_term is bright and the aspect_term is nice;,screen,positive,positive,True
+377,The aspect_term is bright and the aspect_term is nice;,keyboard,positive,positive,True
+378,"I was told by many  that it was a great computer, but we got one of these, and it worked  great for one year, and as soon as the aspect_term was up, then it got  really bad.",warrenty,negative,negative,True
+379,Only thing I would want to add to this is an internal aspect_term.,bluray read/write drive,negative,neutral,False
+380,"Since the machine's slim aspect_term is critical to me, that was a problem.",profile,negative,negative,True
+381,the aspect_term are esay to aspect_term and are quick to process this computer works like a charm.,programs,positive,positive,True
+382,the aspect_term are esay to aspect_term and are quick to process this computer works like a charm.,use,positive,positive,True
+383,I would  rather spend my money on a computer that aspect_term more then a Toshiba that  isn't good at all.,costs,negative,negative,True
+384,After replacing the aspect_term the aspect_term stopped working  (3 months of use) which was frustrating.,hard drive,neutral,neutral,True
+385,After replacing the aspect_term the aspect_term stopped working  (3 months of use) which was frustrating.,battery,negative,negative,True
+386,The computer will constantly be getting hot and burning your leg unless you go through the hassle of taking off the entire back of it just to clean out the aspect_term.,fan,negative,negative,True
+387,It rarely aspect_term and when it does it's incredibly slow.,works,negative,negative,True
+388,All the aspect_term are much needed since this is my main computer.,ports,neutral,negative,False
+389,"I got it back and my aspect_term and aspect_term were shorting out anytime I touched the lid, (mind you this was my means of communication with my fiance who was deployed) but I suffered thru it and would constandly have to reset the computer to be able to use my aspect_term and aspect_term anytime they went out.",built-in webcam,negative,neutral,False
+390,"I got it back and my aspect_term and aspect_term were shorting out anytime I touched the lid, (mind you this was my means of communication with my fiance who was deployed) but I suffered thru it and would constandly have to reset the computer to be able to use my aspect_term and aspect_term anytime they went out.",built-in mic,negative,negative,True
+391,"I got it back and my aspect_term and aspect_term were shorting out anytime I touched the lid, (mind you this was my means of communication with my fiance who was deployed) but I suffered thru it and would constandly have to reset the computer to be able to use my aspect_term and aspect_term anytime they went out.",cam,negative,neutral,False
+392,"I got it back and my aspect_term and aspect_term were shorting out anytime I touched the lid, (mind you this was my means of communication with my fiance who was deployed) but I suffered thru it and would constandly have to reset the computer to be able to use my aspect_term and aspect_term anytime they went out.",mic,negative,neutral,False
+393,"First off, I really do like my MBP... once used to the aspect_term it is pretty easy to get around, and the aspect_term is great... eg the aspect_term is one of the best to type on.",OS,positive,positive,True
+394,"First off, I really do like my MBP... once used to the aspect_term it is pretty easy to get around, and the aspect_term is great... eg the aspect_term is one of the best to type on.",overall build,positive,positive,True
+395,"First off, I really do like my MBP... once used to the aspect_term it is pretty easy to get around, and the aspect_term is great... eg the aspect_term is one of the best to type on.",keyboard,positive,positive,True
+396,It's not inexpensive but the aspect_term is impressive for a computer this small.,Hardware performance,positive,positive,True
+397,The aspect_term stopped working on mine after 10 months.,lcd screen,negative,negative,True
+398,It is super easy to aspect_term.,use,positive,positive,True
+399,"this computer will last you at least 7 years, thats an amazing aspect_term spanned an electronic.",life,positive,positive,True
+400,Sure it's not light and slim but the aspect_term make up for it 100%.,features,positive,positive,True
+401,All for such a great aspect_term.,price,positive,positive,True
+402,With the macbook pro it comes with free aspect_term to protect it from viruses and other intrusive things from downloads and internet surfing or emails.,securitysoftware,positive,positive,True
+403,Then after 4 or so months the aspect_term stopped working so I was forced to go out and buy new aspect_term just to keep this computer running.,charger,negative,negative,True
+404,Then after 4 or so months the aspect_term stopped working so I was forced to go out and buy new aspect_term just to keep this computer running.,hardware,negative,negative,True
+405,"After way too many times sending the thing in for repairs (aspect_term was slow, and without the laptop I had no access to the internet, and thus no way of tracking it to find out when I might hope to see my computer again), it finally kicked the bucket after just over 2 years.",delivery service,negative,negative,True
+406,"But we had paid for aspect_term, and there was none.",bluetooth,negative,negative,True
+407,Loaded with aspect_term.,bloatware,neutral,neutral,True
+408,aspect_term is a nightmare.,Vista,negative,negative,True
+409,The aspect_term is quiet.,SuperDrive,positive,positive,True
+410,This newer netbook has no aspect_term or aspect_term.,hard drive,neutral,negative,False
+411,This newer netbook has no aspect_term or aspect_term.,network lights,neutral,negative,False
+412,I hate the aspect_term and I have done everything I could do the change it.,display screen,negative,negative,True
+413,I regret buying it before understanding how awful it is to aspect_term.,use,negative,negative,True
+414,"My friend reports the notebook is astonishing in aspect_term, aspect_term, and ease of aspect_term.",performance,positive,positive,True
+415,"My friend reports the notebook is astonishing in aspect_term, aspect_term, and ease of aspect_term.",picture quality,positive,positive,True
+416,"My friend reports the notebook is astonishing in aspect_term, aspect_term, and ease of aspect_term.",use,positive,positive,True
+417,The black model also has a very nice seamless aspect_term - one of the better looking notebooks I've seen.,appearance,positive,positive,True
+418,"In due course, I'll remove the aspect_term from this new MacBook Pro and dump it where it belongs - in the trash.",hard disc,negative,negative,True
+419,I had something else go wrong and they said it had to be in good working order to be able to buy the aspect_term.,warranty,negative,neutral,False
+420,"Then, within 5 months, the aspect_term crapped out on me.",charger,negative,negative,True
+421,"So happy with this purchase, I just wish it came with aspect_term.",Microsoft Word,neutral,neutral,True
+422,"Anyway, in early July of this year, the aspect_term stopped working, and the computer stared having issues with aspect_term.",DVD burner,negative,negative,True
+423,"Anyway, in early July of this year, the aspect_term stopped working, and the computer stared having issues with aspect_term.",power supply,negative,neutral,False
+424,The Toshiba laptop I am using is easier to aspect_term than most I have tried.,use,positive,positive,True
+425,"aspect_term is easy to work with, like all the other aspect_term I've had experience with.",Garageband,positive,positive,True
+426,"aspect_term is easy to work with, like all the other aspect_term I've had experience with.",apple applications,positive,positive,True
+427,Laptop is advertised as a aspect_term but the aspect_term looks like that of a aspect_term.,"15""",neutral,neutral,True
+428,Laptop is advertised as a aspect_term but the aspect_term looks like that of a aspect_term.,casing,negative,positive,False
+429,Laptop is advertised as a aspect_term but the aspect_term looks like that of a aspect_term.,"17""",neutral,neutral,True
+430,"My aspect_term developed exposed wires within the first year of ownership, so it was covered by the aspect_term.",power supply cord,negative,negative,True
+431,"My aspect_term developed exposed wires within the first year of ownership, so it was covered by the aspect_term.",Applecare warranty plan,positive,neutral,False
+432,I like coming back to aspect_term but this laptop is lacking in aspect_term compared to my $400  old HP laptop.,Mac OS,positive,negative,False
+433,I like coming back to aspect_term but this laptop is lacking in aspect_term compared to my $400  old HP laptop.,speaker quality,negative,negative,True
+434,"2 months later, the aspect_term went.",battery,negative,negative,True
+435,It is easy to go from one aspect_term to another.,keyboard,neutral,positive,False
+436,"I spoke with a aspect_term at Micro Center and his girlfriend is having the same problem with her aspect_term, so it's not just an isolated incident!!!",service rep,neutral,neutral,True
+437,"I spoke with a aspect_term at Micro Center and his girlfriend is having the same problem with her aspect_term, so it's not just an isolated incident!!!",power adapter,negative,negative,True
+438,"Finally, I should note that I took the aspect_term from my old EeePC and installed it before I even powered on for the first time.",2GB RAM stick,neutral,negative,False
+439,The aspect_term is a bit obscure in the rear corner.,on/off switch,negative,negative,True
+440,air has higher aspect_term but the aspect_term are small.,resolution,positive,negative,False
+441,air has higher aspect_term but the aspect_term are small.,fonts,negative,negative,True
+442,"Put a aspect_term and use a aspect_term, this aspect_term is silky smooth!",SSD,neutral,positive,False
+443,"Put a aspect_term and use a aspect_term, this aspect_term is silky smooth!","21"" LED screen",neutral,positive,False
+444,"Put a aspect_term and use a aspect_term, this aspect_term is silky smooth!",set up,positive,positive,True
+445,After fumbling around with the aspect_term I started searching the internet for a fix and found a number of forums on fixing the issue.,OS,negative,negative,True
+446,"I love the easy to see aspect_term, and It aspect_term well for work, persoal or just play.",screen,positive,positive,True
+447,"I love the easy to see aspect_term, and It aspect_term well for work, persoal or just play.",works,positive,positive,True
+448,"When considering a Mac, look at the total aspect_term and not just the initial aspect_term.",cost of ownership,neutral,neutral,True
+449,"When considering a Mac, look at the total aspect_term and not just the initial aspect_term.",price tag,neutral,neutral,True
+450,"(Beware, their aspect_term could send you back making you feel that only they know what a computer is.",staff,negative,negative,True
+451,"It's fast, light, and is perfect for aspect_term, which is mostly why I bought it in the first place.",media editing,positive,positive,True
+452,"I was loving this Netbook because it had an amazing aspect_term and aspect_term and was small and light, but after 1 week it stopped openning web pages for me ( even after installing new aspect_term ) then eventually it just started giving me a blue screen and crashing everytime I booted it.",screen,positive,positive,True
+453,"I was loving this Netbook because it had an amazing aspect_term and aspect_term and was small and light, but after 1 week it stopped openning web pages for me ( even after installing new aspect_term ) then eventually it just started giving me a blue screen and crashing everytime I booted it.",display,positive,positive,True
+454,"I was loving this Netbook because it had an amazing aspect_term and aspect_term and was small and light, but after 1 week it stopped openning web pages for me ( even after installing new aspect_term ) then eventually it just started giving me a blue screen and crashing everytime I booted it.",browsers,neutral,neutral,True
+455,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",Dreamweaver,neutral,neutral,True
+456,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",Final Cut Pro 7,neutral,neutral,True
+457,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",Photoshop,neutral,neutral,True
+458,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",Safari,neutral,neutral,True
+459,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",Firefox,neutral,neutral,True
+460,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",MSN Messenger,neutral,neutral,True
+461,"I run aspect_term, aspect_term, aspect_term, aspect_term, aspect_term, aspect_term and a few other aspect_term constantly at the same time.",applications,neutral,neutral,True
+462,Not sure on aspect_term.,Windows 8,neutral,negative,False
+463,I loaded aspect_term via aspect_term and it works flawlessly!,windows 7,positive,positive,True
+464,I loaded aspect_term via aspect_term and it works flawlessly!,Bootcamp,positive,positive,True
+465,Then after paying for it to be examined I was told it was same problem cited on website but I'd have to pay anyways since it was past aspect_term.,warrenty,negative,negative,True
+466,The receiver was full of superlatives for the aspect_term and aspect_term.,quality,positive,positive,True
+467,The receiver was full of superlatives for the aspect_term and aspect_term.,performance,positive,positive,True
+468,The aspect_term is too slick.,keyboard,negative,negative,True
+469,"Typically, when I purchase a new laptop I always end up using an aspect_term for convenience.",external mouse,neutral,neutral,True
+470,"They gave me a hard time yet again, but their was a malfunction in the aspect_term itself, it didn't die.",battery,negative,negative,True
+471,Registration/1st aspect_term is easy.,use,positive,positive,True
+472,We paid for the aspect_term and the aspect_term after that one ended as well.,three year warranty,neutral,neutral,True
+473,We paid for the aspect_term and the aspect_term after that one ended as well.,extended warranty,neutral,neutral,True
+474,"Great aspect_term, fast aspect_term - Computer works as if brand new, no problems, very pleased",value,positive,positive,True
+475,"Great aspect_term, fast aspect_term - Computer works as if brand new, no problems, very pleased",delivery,positive,positive,True
+476,Adjust the aspect_term since it's not that responsive to begin with.,sensitivity,negative,negative,True
+477,"Once open, the aspect_term is razor sharp.",leading edge,negative,negative,True
+478,"The aspect_term is slightly recessed and upside down (the aspect_term cannot be accessed), if this was a self ejecting aspect_term this would not be an issue, but its not.",SD card reader,negative,negative,True
+479,"The aspect_term is slightly recessed and upside down (the aspect_term cannot be accessed), if this was a self ejecting aspect_term this would not be an issue, but its not.",nail slot on the card,negative,negative,True
+480,"The aspect_term is slightly recessed and upside down (the aspect_term cannot be accessed), if this was a self ejecting aspect_term this would not be an issue, but its not.",slot,negative,negative,True
+481,The aspect_term is very competitive.,pricing,positive,positive,True
+482,I like how the aspect_term is so simple and easy to aspect_term.,Mac OS,positive,positive,True
+483,I like how the aspect_term is so simple and easy to aspect_term.,use,positive,positive,True
+484,"Now the aspect_term is going darker, darker, darker.",screen,negative,negative,True
+485,I've lived with the crashes and slow aspect_term and restarts.,operation,negative,negative,True
+486,I've also had to have the aspect_term replaced at my expense.,keyboard,negative,negative,True
+487,The aspect_term are terrible and are probably the cheapest ones I have ever seen in a laptop so if your planning to listen to music I suggest you get something better.,speakers,negative,negative,True
+488,also it comes with very useful aspect_term like aspect_term that it is the best aspect_term i have ever had,applications,positive,positive,True
+489,also it comes with very useful aspect_term like aspect_term that it is the best aspect_term i have ever had,iphoto,positive,neutral,False
+490,also it comes with very useful aspect_term like aspect_term that it is the best aspect_term i have ever had,photo application,positive,positive,True
+491,"Fully aspect_term, the MacBook Pro can last about five hours unplugged.",charged,positive,positive,True
+492,"I would recommend this computer to anyone searching for the perfect laptop, and the aspect_term is amazing.",battery life,positive,positive,True
+493,tons of bloatware and junk aspect_term.,programs,negative,negative,True
+494,I have only had PCs with aspect_term before so this takes a little getting use to.,Windows,neutral,negative,False
+495,Can listen to my music and watch my videos with ease and with a great aspect_term.,display,positive,positive,True
+496,MAYBE The aspect_term improvement were not The product they Want to offer.,Mac OS,negative,negative,True
+497,and they replaced the awesome ergonomic small lightweight aspect_term with a aspect_term that weighed more than the machine itself.,power supply,positive,positive,True
+498,and they replaced the awesome ergonomic small lightweight aspect_term with a aspect_term that weighed more than the machine itself.,power supply,negative,positive,False
+499,I should have checked this before I installed my aspect_term.,applications,neutral,neutral,True
+500,At first it worked well for a month or so then the aspect_term failed and I send it in to toshiba some complaints and three weeks later I then receive my laptop back only to discover that it still has the same problem so now I have to send it back again to get it fixed again.,system board,negative,negative,True
+501,aspect_term is reasonable aspect_term.,Keyboard,positive,positive,True
+502,aspect_term is reasonable aspect_term.,size,positive,positive,True
+503,Apple is aware of this issue and this is either old stock or a defective aspect_term involving the aspect_term.,design,neutral,negative,False
+504,Apple is aware of this issue and this is either old stock or a defective aspect_term involving the aspect_term.,intel 4000 graphics chipset,neutral,neutral,True
+505,I did not have to call the aspect_term at all.,support line,neutral,neutral,True
+506,lots of extra aspect_term but the aspect_term is ridiculously small.,space,positive,positive,True
+507,lots of extra aspect_term but the aspect_term is ridiculously small.,keyboard,negative,positive,False
+508,The difference is the Toshiba had a lot more aspect_term and aspect_term.,memory,positive,positive,True
+509,The difference is the Toshiba had a lot more aspect_term and aspect_term.,hard drive space,positive,neutral,False
+510,"But with this laptop, the aspect_term is very weak and the aspect_term comes out sounding tinny.",bass,negative,negative,True
+511,"But with this laptop, the aspect_term is very weak and the aspect_term comes out sounding tinny.",sound,negative,negative,True
+512,"Having heard from friends and family about how reliable a Mac product is, I never expected to have an aspect_term crash within the first month, but I did.",application,negative,negative,True
+513,Getting the aspect_term is a must.,Apple Care plan,positive,negative,False
+514,even though I had the receipt in front of me proving it still had 2 months left on the aspect_term.,warranty,negative,negative,True
+515,The aspect_term is spectacular.,internet speed,positive,positive,True
+516,!so nice .. stable .. fast .. now i got my aspect_term !,SSD,positive,positive,True
+517,"The aspect_term is great for this model, I only plan on using it for media in the entertainment room.",price,positive,positive,True
+518,I am used to computers with aspect_term so I am having a little difficulty finding my way around.,windows,neutral,neutral,True
+519,Put a aspect_term on it and is a little better but that is my only complaint.,cover,neutral,negative,False
+520,"It was slow, locked up, and also had aspect_term replaced after only 2 months!",hardware,negative,negative,True
+521,I liked the aspect_term.,aluminum body,positive,positive,True
+522,"With today's company fighting over marketshare, its a shame that ASUS can get away with the inept aspect_term answering thephone.",staff,negative,negative,True
+523,Thank goodness for aspect_term!,OpenOffice,positive,positive,True
+524,"Called Acer many times, they want me to pay the aspect_term to ship it to their aspect_term - I was very disappointed since it is a brand new computer!",shipping,negative,negative,True
+525,"Called Acer many times, they want me to pay the aspect_term to ship it to their aspect_term - I was very disappointed since it is a brand new computer!",repair center,neutral,negative,False
+526,"Yeah, of course smarty pants ""fix it now"" ) aspect_term - Compared to the early 2011 edition I did see aspect_term crashing and it prompted me to send the report to Apple (which I promptly did).",Software,negative,neutral,False
+527,"Yeah, of course smarty pants ""fix it now"" ) aspect_term - Compared to the early 2011 edition I did see aspect_term crashing and it prompted me to send the report to Apple (which I promptly did).",inbuilt applications,negative,negative,True
+528,After that the said it was under aspect_term.,warranty,neutral,negative,False
+529,So having the aspect_term go out on me and get lose or I could actually here it inside my computer on two of the three times is not good.,AC plug,negative,negative,True
+530,I love to write and play with graphics and html programming and my new Toshiba aspect_term great on both!,works,positive,positive,True
+531,"Also it is very good for college students who just need a reliable, easy to aspect_term computer.",use,positive,positive,True
+532,"Besides the great aspect_term, it is a great machine.",look,positive,positive,True
+533,"I also purchased aspect_term with the ""no lemon"" clause.","Office Max's ""Max Assurance""",neutral,positive,False
+534,Clear aspect_term on it and everything.,picture,positive,positive,True
+535,"It still aspect_term and it's extremely user friendly, so I would recommend it for new computer user and also for those who are just looking for a more efficient way to do things",works,positive,positive,True
+536,The aspect_term is so 3rd world it might as well not even bother.,technical service for dell,negative,negative,True
+537,I guess the only good thing that came out of these were the aspect_term and the aspect_term.,speakers,positive,positive,True
+538,I guess the only good thing that came out of these were the aspect_term and the aspect_term.,subwoofer,positive,positive,True
+539,"I got it back again and was told the aspect_term had been replaced, so I was now on the SECOND aspect_term within 3 months.",motherboard,negative,negative,True
+540,"I got it back again and was told the aspect_term had been replaced, so I was now on the SECOND aspect_term within 3 months.",motherboard,negative,neutral,False
+541,my niece and nephew have played a few web games and it runs anything that doesn't require a dedicated aspect_term.,video card,neutral,neutral,True
+542,"The aspect_term takes some getting use to, because it is smaller than the laptop.",screen,negative,positive,False
+543,Very fast aspect_term and aspect_term.,boot up,positive,positive,True
+544,Very fast aspect_term and aspect_term.,shut down,positive,positive,True
+545,the latest version does not have a aspect_term.,disc drive,neutral,negative,False
+546,I like the aspect_term.,operating system,positive,positive,True
+547,aspect_term too small to be of any real use.,Speakers,negative,negative,True
+548,"Am very glad I bought it, great netbook, low aspect_term.",price,positive,positive,True
+549,also the aspect_term does not liht up so unless your sitting in a room with some light you cant see anything and thats bad for me because my boyfriend tends to watch tv in the dark at night which leaves me with no way of seeing the aspect_term.,keyboard,negative,negative,True
+550,also the aspect_term does not liht up so unless your sitting in a room with some light you cant see anything and thats bad for me because my boyfriend tends to watch tv in the dark at night which leaves me with no way of seeing the aspect_term.,keyboard,negative,neutral,False
+551,I wasn't a big fan of the Netbooks but this one was very well aspect_term.,designed,positive,positive,True
+552,The aspect_term was very slow from the very beginning.,Internet Explorer,negative,negative,True
+553,I had it four months when my aspect_term refused to open.,disc drive,negative,negative,True
+554,So we exchanged it for the same on and after 2 hours it didn't aspect_term.,work,negative,negative,True
+555,"Further, this Mac Mini has a sloppy aspect_term (courtesy of the aspect_term) and the aspect_term is poor.",Bluetooth interface,negative,negative,True
+556,"Further, this Mac Mini has a sloppy aspect_term (courtesy of the aspect_term) and the aspect_term is poor.",Mac OS,negative,neutral,False
+557,"Further, this Mac Mini has a sloppy aspect_term (courtesy of the aspect_term) and the aspect_term is poor.",range,negative,negative,True
+558,and the aspect_term ( allows you to press one button to see every separate page currently opened at the same time in one screen) are great for those who are working non stop or just shopping online.,multiple page viewer,positive,positive,True
+559,"Simple to aspect_term, and great aspect_term.",use,positive,positive,True
+560,"Simple to aspect_term, and great aspect_term.",graphics,positive,positive,True
+561,"My last laptop was a 17"" ASUS gaming machine, which aspect_term admirably, but having since built my own desktop and really settling into the college life, I found myself wanting something smaller and less cumbersome, not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago.",performed,positive,positive,True
+562,"I hope to edit this in the next few hours, I am going to try to install my own copy of aspect_term.",Windows 7,neutral,neutral,True
+563,"So, after Apple replaced the aspect_term I enjoyed another 4 months of my new computer, until it froze this morning--completely.",hard drive,neutral,positive,False
+564,Sometimes you really have to tap the aspect_term to get it to worki,pad,negative,neutral,False
+565,i also love having the extra calculator number set up on the aspect_term which most laptops do not have.,keyboard,positive,positive,True
+566,"They say it could be the aspect_term again, but Dell",motherboard,negative,negative,True
+567,"The aspect_term is secured to aspect_term so when this  happens you can't see the aspect_term at all, it's just gone.",port,neutral,neutral,True
+568,"The aspect_term is secured to aspect_term so when this  happens you can't see the aspect_term at all, it's just gone.",motherboard,neutral,neutral,True
+569,"The aspect_term is secured to aspect_term so when this  happens you can't see the aspect_term at all, it's just gone.",plug,negative,negative,True
+570,If you want more information on macs I suggest going to apple.com and heading towards the macbook page for more information on the aspect_term.,applications,neutral,neutral,True
+571,Sometimes the aspect_term even goes black on this computer.,screen,negative,negative,True
+572,"Also, I have had alot of trouble with the aspect_term to go to other lines.",shift key,negative,neutral,False
+573,The shop will definitely push the problem to the aspect_term.,service center,neutral,neutral,True
+574,"But to be honest, the aspect_term issues and the other little quirks make me think I ll buy a PC next time.",compatibility,negative,positive,False
+575,I bought a aspect_term for my aspect_term and it works great :),protector,neutral,positive,False
+576,I bought a aspect_term for my aspect_term and it works great :),key pad,positive,positive,True
+577,"With a mac you don't have to worry about aspect_term or aspect_term, it's so wonderful.",antivirus software,neutral,neutral,True
+578,"With a mac you don't have to worry about aspect_term or aspect_term, it's so wonderful.",firewall,neutral,neutral,True
+579,"-4 aspect_term, 2 aspect_term*, aspect_term -No aspect_term Issues, at least for me.",RAM slots,neutral,neutral,True
+580,"-4 aspect_term, 2 aspect_term*, aspect_term -No aspect_term Issues, at least for me.",HDD Bays,neutral,neutral,True
+581,"-4 aspect_term, 2 aspect_term*, aspect_term -No aspect_term Issues, at least for me.",16GB RAM support,neutral,neutral,True
+582,"-4 aspect_term, 2 aspect_term*, aspect_term -No aspect_term Issues, at least for me.",Wireless,positive,neutral,False
+583,"Apparently under the aspect_term there are 2 little screws and when the aspect_term gets moved back and forth, they come loose.",screen,neutral,negative,False
+584,"Apparently under the aspect_term there are 2 little screws and when the aspect_term gets moved back and forth, they come loose.",screen,neutral,negative,False
+585,"There is no aspect_term, nor is there an aspect_term located anywhere on the device.",HDMI receptacle,neutral,negative,False
+586,"There is no aspect_term, nor is there an aspect_term located anywhere on the device.",SD card slot,neutral,negative,False
+587,not using aspect_term not sure what thats about.,wired lan,neutral,negative,False
+588,It came in brand new and aspect_term perfectly.,works,positive,positive,True
+589,"Finally, the biggest problem has been aspect_term.",tech support,negative,negative,True
+590,"The aspect_term ( ex. aspect_term ) are fun, easy, and really cool to use (unlike the competition)!",Apple applications,positive,positive,True
+591,"The aspect_term ( ex. aspect_term ) are fun, easy, and really cool to use (unlike the competition)!",iPhoto,positive,positive,True
+592,"The aspect_term was very good, and the product is top aspect_term.",price,positive,positive,True
+593,"The aspect_term was very good, and the product is top aspect_term.",quality,positive,positive,True
+594,"you can find many laptops with the same aspect_term and even better with lower aspect_term, but you cannot find the aspect_term, easy, aspect_term, and the experience in mac.",performance,neutral,positive,False
+595,"you can find many laptops with the same aspect_term and even better with lower aspect_term, but you cannot find the aspect_term, easy, aspect_term, and the experience in mac.",price,positive,positive,True
+596,"you can find many laptops with the same aspect_term and even better with lower aspect_term, but you cannot find the aspect_term, easy, aspect_term, and the experience in mac.",look,positive,positive,True
+597,"you can find many laptops with the same aspect_term and even better with lower aspect_term, but you cannot find the aspect_term, easy, aspect_term, and the experience in mac.",applications,positive,positive,True
+598,"My dad has one of the very first Toshibas ever made, yes its abit slow now but still aspect_term well and i hooked to my aspect_term!",works,positive,positive,True
+599,"My dad has one of the very first Toshibas ever made, yes its abit slow now but still aspect_term well and i hooked to my aspect_term!",ethernet,positive,positive,True
+600,"At first, I feel a little bit uncomfortable in using the aspect_term.",Mac system,negative,positive,False
+601,"Also, my sister got the exact same laptop (since they were so cheap) and after 8 months, the aspect_term split in half just from everyday use.",screen,negative,negative,True
+602,This computer is exceptionally thin for it's aspect_term and aspect_term.,screen size,positive,positive,True
+603,This computer is exceptionally thin for it's aspect_term and aspect_term.,processing power,positive,positive,True
+604,Only 2 aspect_term...seems kind of...limited.,usb ports,negative,negative,True
+605,"The only thing that can be updated is the aspect_term, other than that you're all set.",video,negative,negative,True
+606,") I also purchased  aspect_term  for $300, which is a three year aspect_term, since I ve never seen any laptop that lasted more than two.",Applecare,neutral,neutral,True
+607,") I also purchased  aspect_term  for $300, which is a three year aspect_term, since I ve never seen any laptop that lasted more than two.",extended warranty,neutral,neutral,True
+608,My laptop with aspect_term crashed and I did not want aspect_term.,Windows 7,negative,negative,True
+609,My laptop with aspect_term crashed and I did not want aspect_term.,Windows 8,negative,negative,True
+610,I will not be using that aspect_term again.,slot,negative,negative,True
+611,"For me, aspect_term were starting to get stuck and wouldn't type very well.",keys,negative,negative,True
+612,I especially like the aspect_term.,backlit keyboard,positive,positive,True
+613,"it is of high aspect_term, has a killer aspect_term, is extremely stable, is highly expandable, is bundled with lots of very good aspect_term, is easy to aspect_term, and is absolutely gorgeous.",quality,positive,positive,True
+614,"it is of high aspect_term, has a killer aspect_term, is extremely stable, is highly expandable, is bundled with lots of very good aspect_term, is easy to aspect_term, and is absolutely gorgeous.",GUI,positive,positive,True
+615,"it is of high aspect_term, has a killer aspect_term, is extremely stable, is highly expandable, is bundled with lots of very good aspect_term, is easy to aspect_term, and is absolutely gorgeous.",applications,positive,positive,True
+616,"it is of high aspect_term, has a killer aspect_term, is extremely stable, is highly expandable, is bundled with lots of very good aspect_term, is easy to aspect_term, and is absolutely gorgeous.",use,positive,positive,True
+617,the mcbook pro notebook will make it easy for you to write and read your emails at blazing aspect_term.,speeds,positive,positive,True
+618,"The laptop is very lightweight, can easily aspect_term around in a knapsack full of text books and it barely adds any aspect_term.",carry,positive,positive,True
+619,"The laptop is very lightweight, can easily aspect_term around in a knapsack full of text books and it barely adds any aspect_term.",weight,positive,positive,True
+620,aspect_term is bright and gorgeous.,Screen,positive,positive,True
+621,"The Mac mini is about 8x smaller than my old computer which is a huge bonus and aspect_term very quiet, actually the aspect_term aren't audible unlike my old pc",runs,positive,positive,True
+622,"The Mac mini is about 8x smaller than my old computer which is a huge bonus and aspect_term very quiet, actually the aspect_term aren't audible unlike my old pc",fans,positive,positive,True
+623,No aspect_term on the display.,tutorials,negative,negative,True
+624,It just aspect_term flawlessly!,works,positive,positive,True
+625,Got this Mac Mini with aspect_term for my wife.,OS X Mountain Lion,neutral,positive,False
+626,Made aspect_term (part of my business) very difficult to maintain.,interneting,negative,negative,True
+627,That whole experience was just ridiculous we sent it in and after they told us that we had to pay $175 to fix it we were like we will just by a portable aspect_term which would be way cheaper but they refused to send the laptop back until we paid the $175 and it was fixed.,mouse,positive,negative,False
+628,"In desparation, I called their aspect_term and was told that my aspect_term had expired (2 days old) and that the priviledge of aspect_term would cost me (""have your credit card ready"").",Customer Service number,neutral,neutral,True
+629,"In desparation, I called their aspect_term and was told that my aspect_term had expired (2 days old) and that the priviledge of aspect_term would cost me (""have your credit card ready"").",warranty,negative,negative,True
+630,"In desparation, I called their aspect_term and was told that my aspect_term had expired (2 days old) and that the priviledge of aspect_term would cost me (""have your credit card ready"").",talking to a technician,negative,negative,True
+631,"The Macbook aspect_term fast, doesn't crash, has a fantastic aspect_term, is small and light (I have the 13.3"" model), and isn't always complaining about updates, lost connections, errors, blue screens, etc.",starts,positive,positive,True
+632,"The Macbook aspect_term fast, doesn't crash, has a fantastic aspect_term, is small and light (I have the 13.3"" model), and isn't always complaining about updates, lost connections, errors, blue screens, etc.",display,positive,positive,True
+633,"It aspect_term and aspect_term solid, with a flawless aspect_term.",looks,positive,positive,True
+634,"It aspect_term and aspect_term solid, with a flawless aspect_term.",feels,positive,positive,True
+635,"It aspect_term and aspect_term solid, with a flawless aspect_term.",finish,positive,positive,True
+636,The aspect_term has a bad aspect_term with the aspect_term and shortly after aspect_term expires the aspect_term will start having issues.,board,negative,negative,True
+637,The aspect_term has a bad aspect_term with the aspect_term and shortly after aspect_term expires the aspect_term will start having issues.,connector,negative,negative,True
+638,The aspect_term has a bad aspect_term with the aspect_term and shortly after aspect_term expires the aspect_term will start having issues.,power supply,negative,neutral,False
+639,The aspect_term has a bad aspect_term with the aspect_term and shortly after aspect_term expires the aspect_term will start having issues.,warrenty,negative,neutral,False
+640,The aspect_term has a bad aspect_term with the aspect_term and shortly after aspect_term expires the aspect_term will start having issues.,power supply,negative,negative,True
+641,My laptop now has no aspect_term.,battery,negative,negative,True
+642,I know what 7 hrs of aspect_term looks like.,battery,positive,positive,True
+643,No aspect_term was not included but that may be my fault.,startup disk,neutral,negative,False
+644,"My MacBook Pro aspect_term like a dream, it has never overheated, or even been slightly warm for that matter.",works,positive,positive,True
+645,"After replacing the aspect_term with an aspect_term, my mac is just flying.",spinning hard disk,neutral,neutral,True
+646,"After replacing the aspect_term with an aspect_term, my mac is just flying.",ssd drive,positive,neutral,False
+647,Ease of aspect_term is just one of the benefits I love about my Mac.,use,positive,positive,True
+648,aspect_term good sized and wasy to aspect_term.,Keyboard,positive,positive,True
+649,aspect_term good sized and wasy to aspect_term.,use,positive,positive,True
+650,"But when I received my replacement, I made BOTH aspect_term (4), and a aspect_term.",recovery DVDs,neutral,neutral,True
+651,"But when I received my replacement, I made BOTH aspect_term (4), and a aspect_term.",driver/application DVD,neutral,neutral,True
+652,I wish Toshiba would allow their customers to select an option that only boots the aspect_term at setup and removes all the unnecessary stuff.,OS,neutral,neutral,True
+653,"When you look at the specs on Apple products in comparison to a Dell or a HP, yes they do seem to offer less for a higher aspect_term.",cost,negative,positive,False
+654,"Purchased for development purposes, but it has turned into my everyday laptop as well for aspect_term, e-mail, etc.",surfing,positive,positive,True
+655,It aspect_term exactly like it did the day I took it out of the box.,works,positive,negative,False
+656,I need aspect_term to run my aspect_term efficiently.,graphic power,neutral,neutral,True
+657,I need aspect_term to run my aspect_term efficiently.,Adobe Creative apps,neutral,neutral,True
+658,The ease of aspect_term was terrific.,set up,positive,positive,True
+659,The aspect_term is awesome.,display,positive,positive,True
+660,The macbooks are small enough to be very portable yet hold tons of information and aspect_term.,performance,positive,positive,True
+661,"It is a much more streamlined aspect_term for adding aspect_term, aspect_term, and doing other things everyone does on a computer.",system,positive,positive,True
+662,"It is a much more streamlined aspect_term for adding aspect_term, aspect_term, and doing other things everyone does on a computer.",programs,neutral,positive,False
+663,"It is a much more streamlined aspect_term for adding aspect_term, aspect_term, and doing other things everyone does on a computer.",using the internet,neutral,positive,False
+664,aspect_term slowed significantly after all aspect_term were installed.,Boot-up,negative,negative,True
+665,aspect_term slowed significantly after all aspect_term were installed.,Windows updates,negative,negative,True
+666,"I had static in the output, and I had to reduce the aspect_term to ""FM"" as opposed to the default ""CD.",sound output quality,negative,negative,True
+667,Biggest complaint is aspect_term .,Windows 8,negative,negative,True
+668,Mac is not made for aspect_term.,gaming,negative,negative,True
+669,"The only thing I didn't learn in my research was the aspect_term I would need like privacy protection and warranty protection, in case it gets broken, or crashes etc.",software,neutral,negative,False
+670,aspect_term is also rather unsteady on its feet and is susceptible to many bugs.,Windows,negative,negative,True
+671,"The aspect_term has never failed me, and I expect it to be the same for this computer as well.",apple care,positive,negative,False
+672,It's silent and has a very small aspect_term on my desk.,footprint,positive,positive,True
+673,"I wish aspect_term or aspect_term came with the Mac, but aspect_term doesn't even come with most pc laptops.",iWork,negative,positive,False
+674,"I wish aspect_term or aspect_term came with the Mac, but aspect_term doesn't even come with most pc laptops.",MS Office,negative,positive,False
+675,"I wish aspect_term or aspect_term came with the Mac, but aspect_term doesn't even come with most pc laptops.",MS Office,negative,positive,False
+676,GET THIS COMPUTER FOR aspect_term AND FAST aspect_term!!!,PORTABILITY,positive,positive,True
+677,GET THIS COMPUTER FOR aspect_term AND FAST aspect_term!!!,PROCESSING,positive,positive,True
+678,Typing on the aspect_term becomes uncomfortable after extended use due to the sharp aspect_term that your wrists rest on.,keyboard,negative,negative,True
+679,Typing on the aspect_term becomes uncomfortable after extended use due to the sharp aspect_term that your wrists rest on.,edges,negative,negative,True
+680,So much faster and sleeker aspect_term.,looking,positive,positive,True
+681,"Treat yourself to a more expensive, long-lasting laptop of aspect_term like a Sony, Apple, or Toshiba.",quality,positive,positive,True
+682,Wasted me at least 8 hours of aspect_term.,installation time,negative,neutral,False
+683,Having aspect_term is why I bought this Mini.,USB3,positive,negative,False
+684,My kids (and dogs) destroyed two aspect_term by pulling on them.,power cords,neutral,negative,False
+685,It also does not have aspect_term.,bluetooth,negative,negative,True
+686,This computer had exactly the aspect_term I needed.,specifications,positive,negative,False
+687,"company provides UPS aspect_term, fast, great!",shipping,positive,positive,True
+688,aspect_term: very durable.,Design,positive,positive,True
+689,I will aspect_term myself (because with this model you can you can do it) later on.,upgrade the ram,positive,positive,True
+690,"I do transcription work on the side, and the aspect_term makes typing quick and easy as well.",flatline keyboard,positive,positive,True
+691,"aspect_term such as the aspect_term (allows you to view frequently used tools like a calculator, weather forecast, movie times, calendar, computer post its etc.",Features,neutral,positive,False
+692,"aspect_term such as the aspect_term (allows you to view frequently used tools like a calculator, weather forecast, movie times, calendar, computer post its etc.",Dashboard,neutral,positive,False
+693,aspect_term is good for the aspect_term.,Peformance,positive,positive,True
+694,aspect_term is good for the aspect_term.,price,positive,positive,True
+695,I will have to purchase aspect_term or aspect_term for privacy protection.,Spy ware,neutral,neutral,True
+696,I will have to purchase aspect_term or aspect_term for privacy protection.,Nortell,neutral,neutral,True
+697,"Also, in using the aspect_term, my aspect_term for my vlog sounds like the interplanetary transmissions in the ""Star Wars"" saga.",built-in camera,neutral,neutral,True
+698,"Also, in using the aspect_term, my aspect_term for my vlog sounds like the interplanetary transmissions in the ""Star Wars"" saga.",voice recording,negative,neutral,False
+699,"The only task that this computer would not be good enough for would be aspect_term, otherwise the integrated Intel 4000 graphics work well for other tasks.",gaming,negative,negative,True
+700,"Now I had not tried to use this since the aspect_term had been replaced and after taking it back to the Geek Squad I found out they had accidently not used the right aspect_term when they replaced the first one, so back it went to get the correct aspect_term.",disc drive,negative,negative,True
+701,"Now I had not tried to use this since the aspect_term had been replaced and after taking it back to the Geek Squad I found out they had accidently not used the right aspect_term when they replaced the first one, so back it went to get the correct aspect_term.",drive,negative,negative,True
+702,"Now I had not tried to use this since the aspect_term had been replaced and after taking it back to the Geek Squad I found out they had accidently not used the right aspect_term when they replaced the first one, so back it went to get the correct aspect_term.",drive,neutral,negative,False
+703,Thank you Best Buy for putting my computer together and installing my first aspect_term - you guys were GREAT too!,software,neutral,positive,False
+704,The only bad thing about it is they give you the worst aspect_term possible.,batteries,negative,negative,True
+705,"First of all, they had no record of me having the aspect_term I'd paid almost $400 for, and I had to call in, spend hours on their aspect_term, and fax in multiple documents.",3 year warranty,negative,negative,True
+706,"First of all, they had no record of me having the aspect_term I'd paid almost $400 for, and I had to call in, spend hours on their aspect_term, and fax in multiple documents.",online chat service,negative,neutral,False
+707,"Also, if you need to talk to a aspect_term, there is a charge, which I believe is robbery, since you are charged enormous amounts for a very badly designed aspect_term, which most people would have went with aspect_term if they could.",representive at Microsoft,negative,negative,True
+708,"Also, if you need to talk to a aspect_term, there is a charge, which I believe is robbery, since you are charged enormous amounts for a very badly designed aspect_term, which most people would have went with aspect_term if they could.",system,negative,negative,True
+709,"Also, if you need to talk to a aspect_term, there is a charge, which I believe is robbery, since you are charged enormous amounts for a very badly designed aspect_term, which most people would have went with aspect_term if they could.",XP,positive,negative,False
+710,The aspect_term is beyond horrible.,display,negative,negative,True
+711,The only thing I dislike about this laptop are the aspect_term found on the bottom of the computer for grip.,rubber pads,negative,negative,True
+712,"Awesome aspect_term, great aspect_term, wonderful aspect_term.",form factor,positive,positive,True
+713,"Awesome aspect_term, great aspect_term, wonderful aspect_term.",battery life,positive,positive,True
+714,"Awesome aspect_term, great aspect_term, wonderful aspect_term.",UX,positive,positive,True
+715,It's so nice to aspect_term at and the aspect_term are easy to type with.,look,positive,positive,True
+716,It's so nice to aspect_term at and the aspect_term are easy to type with.,keys,positive,positive,True

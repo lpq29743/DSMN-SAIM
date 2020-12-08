@@ -1,4 +1,4 @@
-# DMMN-SDCM
+# DSMN-SDCM
 
 A Tensorflow implementation for DSMN-SAIM.
 

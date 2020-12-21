@@ -2,7 +2,7 @@ import random
 import torch
 import torch.optim as optim
 from utils import *
-from model import DSMN_SAIM
+from model_semantic import DSMN_SAIM
 from evals import *
 import time
 import argparse
@@ -21,10 +21,8 @@ if __name__ == '__main__':
 
     parser.add_argument('--embedding_fname', default='/data/linpq/Word2Vec/glove.840B.300d.txt', type=str,
                         help='file name of embeddings')
-    parser.add_argument('--dataset', default='data/restaurant/', type=str, help='data set')
-    parser.add_argument('--select_method', default='sem', type=str,
-                        help='sem for semantic-based selection, or pos for position-based selection')
-    parser.add_argument('--pre_processed', default=1, type=int, help='denote whether the data has been pre-processed')
+    parser.add_argument('--dataset', default='data/laptop/', type=str, help='data set')
+    parser.add_argument('--pre_processed', default=0, type=int, help='denote whether the data has been pre-processed')
 
     parser.add_argument('--gpu_id', default=0, type=int, help='gpu id')
     parser.add_argument('--embedding_dim', default=300, type=int, help='dimension of embedding vectors')
@@ -33,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--n_epoch', default=200, type=int, help='number of epochs')
     parser.add_argument('--early_stopping_num', default=40, type=int, help='number of epochs for early stopping')
     parser.add_argument('--n_class', default=3, type=int, help='number of classes')
-    parser.add_argument('--n_hop', default=6, type=int, help='number of layers in the memory network')
+    parser.add_argument('--n_hop', default=4, type=int, help='number of layers in the memory network')
     parser.add_argument('--learning_rate', default=0.002, type=float, help='learning rate')
     parser.add_argument('--l2_reg', default=0.001, type=float, help='weight of L2 regularization term')
     parser.add_argument('--dropout', default=0.5, type=float, help='dropout rate')
@@ -54,23 +52,22 @@ if __name__ == '__main__':
 
     train_fname = args.dataset + '/train.txt'
     test_fname = args.dataset + '/test.txt'
-
-    data_info = args.dataset + '/data_info_' + args.select_method + '.txt'
-    train_data = args.dataset + '/train_data_' + args.select_method + '.txt'
-    test_data = args.dataset + '/test_data_' + args.select_method + '.txt'
-    analysis_fname = args.dataset + '/analysis_' + args.select_method + '.csv'
-
+    data_info = args.dataset + '/data_info.txt'
+    train_data = args.dataset + '/train_data.txt'
+    test_data = args.dataset + '/test_data.txt'
+    analysis_fname = args.dataset + '/analysis.csv'
+    
     stime = time.time()
     print('Loading data info ...')
     word2id, max_sentence_len, max_aspect_len, max_aspect_num = get_data_info(train_fname, test_fname, data_info,
                                                                               args.pre_processed)
 
     print('Loading training data and testing data ...')
-    train_data = read_data(train_fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, train_data,
-                           args.select_method, args.pre_processed)
-    test_data = read_data(test_fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, test_data,
-                          args.select_method, args.pre_processed)
 
+    train_data = read_data(train_fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, train_data,
+                           args.pre_processed)
+    test_data = read_data(test_fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, test_data,
+                          args.pre_processed)
     print('Loading pre-trained word vectors ...')
     embedding_matrix = load_word_embeddings(args.embedding_fname, args.embedding_dim, word2id)
 
@@ -98,7 +95,6 @@ if __name__ == '__main__':
             train_y_gold.extend(y_gold)
         train_loss = cost / cnt
         train_acc, train_f, _, _ = evaluate(pred=train_y_pred, gold=train_y_gold)
-
         cost, cnt, total_correct_num = 0.0, 0, 0
         test_y_pred, test_y_gold = [], []
         for sample, _ in get_batch_data(test_data, args.batch_size, False):

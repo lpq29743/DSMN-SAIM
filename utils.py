@@ -15,7 +15,7 @@ def get_data_info(train_fname, test_fname, save_fname, pre_processed):
     if pre_processed:
         if not os.path.isfile(save_fname):
             raise IOError(ENOENT, 'Not a file', save_fname)
-        with open(save_fname, 'r') as f:
+        with open(save_fname, 'r', encoding='utf-8') as f:
             for line in f:
                 content = line.strip().split()
                 if len(content) == 4:
@@ -32,7 +32,7 @@ def get_data_info(train_fname, test_fname, save_fname, pre_processed):
 
         words = []
 
-        train_f = open(train_fname, 'r')
+        train_f = open(train_fname, 'r', encoding='utf-8')
         while True:
             line = train_f.readline()
             if not line:
@@ -58,7 +58,7 @@ def get_data_info(train_fname, test_fname, save_fname, pre_processed):
             if word not in word2id and str(word).strip() != '':
                 word2id[word] = len(word2id)
 
-        test_f = open(test_fname, 'r')
+        test_f = open(test_fname, 'r', encoding='utf-8')
         while True:
             line = test_f.readline()
             if not line:
@@ -84,7 +84,7 @@ def get_data_info(train_fname, test_fname, save_fname, pre_processed):
             if word not in word2id and str(word).strip() != '':
                 word2id[word] = len(word2id)
 
-        with open(save_fname, 'w') as f:
+        with open(save_fname, 'w', encoding='utf-8') as f:
             f.write('length %s %s %s\n' % (max_sentence_len, max_aspect_len, max_aspect_num))
             for key, value in word2id.items():
                 f.write('%s %s\n' % (key, value))
@@ -203,42 +203,45 @@ def get_asp_moment(cur_polarities, asp_loc):
 
     mean_sum = 0.0
     for i in range(l):
-        # mean_sum += cur_polarities[i] * asp_loc[i]
-        mean_sum += cur_polarities[i]
+        mean_sum += cur_polarities[i] * asp_loc[i]
     mean = mean_sum / l
 
     var_sum = 0.0
     for i in range(l):
-        var_sum += (mean - cur_polarities[i]) ** 2
-        # var_sum += asp_loc[i] * ((mean - cur_polarities[i]) ** 2)
+        var_sum += asp_loc[i] * ((mean - cur_polarities[i]) ** 2)
     var = var_sum / l
     return [(mean + 1) / 2.0, 1 - (mean + 1) / 2.0], [var, 1 - var]
 
 
-def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, save_fname, select_method,
+def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, save_fname,
               pre_processed):
-    sentences, sentence_lens, num, aspects, aspect_lens, sentence_infos, sentence_locs, aspect_locs, aspect_means, aspect_vars, labels = [], [], [], [], [], [], [], [], [], [], []
+    sentences, sentence_lens, num, aspects, aspect_lens, sentence_infos_pos, sentence_locs_pos, aspect_locs_pos, sentence_infos_sem, sentence_locs_sem, aspect_locs_sem, aspect_means_pos, aspect_vars_pos, aspect_means_sem, aspect_vars_sem, labels = [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []
     if pre_processed:
         if not os.path.isfile(save_fname):
             raise IOError(ENOENT, 'Not a file', save_fname)
-        lines = open(save_fname, 'r').readlines()
-        for i in range(0, len(lines), 11):
+        lines = open(save_fname, 'r', encoding='utf-8').readlines()
+        for i in range(0, len(lines), 16):
             sentences.append(ast.literal_eval(lines[i]))
             sentence_lens.append(ast.literal_eval(lines[i + 1]))
             num.append(ast.literal_eval(lines[i + 2]))
             aspects.append(ast.literal_eval(lines[i + 3]))
             aspect_lens.append(ast.literal_eval(lines[i + 4]))
-            sentence_infos.append(ast.literal_eval(lines[i + 5]))
-            sentence_locs.append(ast.literal_eval(lines[i + 6]))
-            aspect_locs.append(ast.literal_eval(lines[i + 7]))
-            aspect_means.append(ast.literal_eval(lines[i + 8]))
-            aspect_vars.append(ast.literal_eval(lines[i + 9]))
-            labels.append(ast.literal_eval(lines[i + 10]))
+            sentence_infos_pos.append(ast.literal_eval(lines[i + 5]))
+            sentence_locs_pos.append(ast.literal_eval(lines[i + 6]))
+            aspect_locs_pos.append(ast.literal_eval(lines[i + 7]))
+            sentence_infos_sem.append(ast.literal_eval(lines[i + 8]))
+            sentence_locs_sem.append(ast.literal_eval(lines[i + 9]))
+            aspect_locs_sem.append(ast.literal_eval(lines[i + 10]))
+            aspect_means_pos.append(ast.literal_eval(lines[i + 11]))
+            aspect_vars_pos.append(ast.literal_eval(lines[i + 12]))
+            aspect_means_sem.append(ast.literal_eval(lines[i + 13]))
+            aspect_vars_sem.append(ast.literal_eval(lines[i + 14]))
+            labels.append(ast.literal_eval(lines[i + 15]))
     else:
         if not os.path.isfile(fname):
             raise IOError(ENOENT, 'Not a file', fname)
 
-        with open(fname, 'r') as f, open(save_fname, 'w') as sf:
+        with open(fname, 'r', encoding='utf-8') as f, open(save_fname, 'w', encoding='utf-8') as sf:
             while True:
                 line = f.readline()
                 if not line:
@@ -279,7 +282,7 @@ def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, 
                 num.append(len(cur_polarities))
                 sf.write("%s\n" % num[-1])
 
-                aspects_tmp, aspect_lens_tmp, sentence_infos_tmp, sentence_locs_tmp, aspect_locs_tmp, aspect_means_tmp, aspect_vars_tmp, labels_tmp = [], [], [], [], [], [], [], []
+                aspects_tmp, aspect_lens_tmp, sentence_infos_pos_tmp, sentence_locs_pos_tmp, aspect_locs_pos_tmp, sentence_infos_sem_tmp, sentence_locs_sem_tmp, aspect_locs_sem_tmp, aspect_means_pos_tmp, aspect_vars_pos_tmp, aspect_means_sem_tmp, aspect_vars_sem_tmp, labels_tmp = [], [], [], [], [], [], [], [], [], [], [], [], []
                 cnt = 0
                 for aspect, label in zip(cur_aspects, cur_labels):
                     cnt += 1
@@ -300,17 +303,23 @@ def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, 
 
                     if 'Twitter' in fname:
                         aspect_pos = [aspect_pos[0]]
-                    if select_method == 'pos':
-                        mask, asp_loc, sen_loc = get_mask_pos(dp_text, max_sentence_len, aspect_pos, max_aspect_num)
-                    elif select_method == 'sem':
-                        mask, asp_loc, sen_loc = get_mask_sem(dp_text, max_sentence_len, aspect_pos, max_aspect_num)
-                    sentence_infos_tmp.append(mask)
-                    sentence_locs_tmp.append(sen_loc)
-                    aspect_locs_tmp.append(asp_loc)
+                    # if select_method == 'pos':
+                    mask_pos, asp_loc_pos, sen_loc_pos = get_mask_pos(dp_text, max_sentence_len, aspect_pos, max_aspect_num)
+                    # elif select_method == 'sem':
+                    mask_sem, asp_loc_sem, sen_loc_sem = get_mask_sem(dp_text, max_sentence_len, aspect_pos, max_aspect_num)
+                    sentence_infos_pos_tmp.append(mask_pos)
+                    sentence_locs_pos_tmp.append(sen_loc_pos)
+                    aspect_locs_pos_tmp.append(asp_loc_pos)
+                    sentence_infos_sem_tmp.append(mask_sem)
+                    sentence_locs_sem_tmp.append(sen_loc_sem)
+                    aspect_locs_sem_tmp.append(asp_loc_sem)
 
-                    asp_mean, asp_var = get_asp_moment(cur_polarities, asp_loc)
-                    aspect_means_tmp.append(asp_mean)
-                    aspect_vars_tmp.append(asp_var)
+                    asp_mean_pos, asp_var_pos = get_asp_moment(cur_polarities, asp_loc_pos)
+                    aspect_means_pos_tmp.append(asp_mean_pos)
+                    aspect_vars_pos_tmp.append(asp_var_pos)
+                    asp_mean_sem, asp_var_sem = get_asp_moment(cur_polarities, asp_loc_sem)
+                    aspect_means_sem_tmp.append(asp_mean_sem)
+                    aspect_vars_sem_tmp.append(asp_var_sem)
 
                     if label == 'negative':
                         labels_tmp.append([1, 0, 0])
@@ -323,25 +332,37 @@ def read_data(fname, word2id, max_sentence_len, max_aspect_len, max_aspect_num, 
                 sf.write("%s\n" % aspects[-1])
                 aspect_lens.append(aspect_lens_tmp + [0] * (max_aspect_num - len(aspect_lens_tmp)))
                 sf.write("%s\n" % aspect_lens[-1])
-                sentence_infos.append(
-                    sentence_infos_tmp + [[[0] * max_sentence_len] * 10] * (max_aspect_num - len(sentence_infos_tmp)))
-                sf.write("%s\n" % sentence_infos[-1])
-                sentence_locs.append(
-                    sentence_locs_tmp + [[0] * max_sentence_len] * (max_aspect_num - len(sentence_locs_tmp)))
-                sf.write("%s\n" % sentence_locs[-1])
-                aspect_locs.append(aspect_locs_tmp + [[0] * max_aspect_num] * (max_aspect_num - len(aspect_locs_tmp)))
-                sf.write("%s\n" % aspect_locs[-1])
-                aspect_means.append(aspect_means_tmp + [[0, 0]] * (max_aspect_num - len(aspect_means_tmp)))
-                sf.write("%s\n" % aspect_means[-1])
-                aspect_vars.append(aspect_vars_tmp + [[0, 0]] * (max_aspect_num - len(aspect_vars_tmp)))
-                sf.write("%s\n" % aspect_vars[-1])
+                sentence_infos_pos.append(
+                    sentence_infos_pos_tmp + [[[0] * max_sentence_len] * 10] * (max_aspect_num - len(sentence_infos_pos_tmp)))
+                sf.write("%s\n" % sentence_infos_pos[-1])
+                sentence_locs_pos.append(
+                    sentence_locs_pos_tmp + [[0] * max_sentence_len] * (max_aspect_num - len(sentence_locs_pos_tmp)))
+                sf.write("%s\n" % sentence_locs_pos[-1])
+                aspect_locs_pos.append(aspect_locs_pos_tmp + [[0] * max_aspect_num] * (max_aspect_num - len(aspect_locs_pos_tmp)))
+                sf.write("%s\n" % aspect_locs_pos[-1])
+                sentence_infos_sem.append(
+                    sentence_infos_sem_tmp + [[[0] * max_sentence_len] * 10] * (max_aspect_num - len(sentence_infos_sem_tmp)))
+                sf.write("%s\n" % sentence_infos_sem[-1])
+                sentence_locs_sem.append(
+                    sentence_locs_sem_tmp + [[0] * max_sentence_len] * (max_aspect_num - len(sentence_locs_sem_tmp)))
+                sf.write("%s\n" % sentence_locs_sem[-1])
+                aspect_locs_sem.append(aspect_locs_sem_tmp + [[0] * max_aspect_num] * (max_aspect_num - len(aspect_locs_sem_tmp)))
+                sf.write("%s\n" % aspect_locs_sem[-1])
+                aspect_means_pos.append(aspect_means_pos_tmp + [[0, 0]] * (max_aspect_num - len(aspect_means_pos_tmp)))
+                sf.write("%s\n" % aspect_means_pos[-1])
+                aspect_vars_pos.append(aspect_vars_pos_tmp + [[0, 0]] * (max_aspect_num - len(aspect_vars_pos_tmp)))
+                sf.write("%s\n" % aspect_vars_pos[-1])
+                aspect_means_sem.append(aspect_means_sem_tmp + [[0, 0]] * (max_aspect_num - len(aspect_means_sem_tmp)))
+                sf.write("%s\n" % aspect_means_sem[-1])
+                aspect_vars_sem.append(aspect_vars_sem_tmp + [[0, 0]] * (max_aspect_num - len(aspect_vars_sem_tmp)))
+                sf.write("%s\n" % aspect_vars_sem[-1])
                 labels.append(labels_tmp + [[0] * 3] * (max_aspect_num - len(labels_tmp)))
                 sf.write("%s\n" % labels[-1])
 
     print("Read %s sentences from %s" % (len(sentences), fname))
     return np.asarray(sentences), np.asarray(sentence_lens), np.asarray(num), np.asarray(aspects), np.asarray(
-        aspect_lens), np.asarray(sentence_infos), np.asarray(sentence_locs), np.asarray(aspect_locs), np.asarray(
-        aspect_means), np.asarray(aspect_vars), np.asarray(labels)
+        aspect_lens), np.asarray(sentence_infos_pos), np.asarray(sentence_locs_pos), np.asarray(aspect_locs_pos), np.asarray(sentence_infos_sem), np.asarray(sentence_locs_sem), np.asarray(aspect_locs_sem), np.asarray(
+        aspect_means_pos), np.asarray(aspect_vars_pos), np.asarray(aspect_means_sem), np.asarray(aspect_vars_sem), np.asarray(labels)
 
 
 def load_word_embeddings(fname, embedding_dim, word2id):
@@ -364,7 +385,7 @@ def load_word_embeddings(fname, embedding_dim, word2id):
 
 def save_analysis_result(test_fname, best_y_pred, analysis_fname):
     id2label = {0: "negative", 1: "neutral", 2: "positive"}
-    test_f = open(test_fname, 'r')
+    test_f = open(test_fname, 'r', encoding='utf-8')
     analysis_result = []
     i = 0
     while True:
@@ -395,7 +416,7 @@ def get_batch_index(length, batch_size, is_shuffle=True):
 
 
 def get_batch_data(data, batch_size, is_shuffle):
-    sentences, sentence_lens, num, aspects, aspect_lens, sentence_infos, sentence_locs, aspect_locs, aspect_means, aspect_vars, labels = data
+    sentences, sentence_lens, num, aspects, aspect_lens, sentence_infos_pos, sentence_locs_pos, aspect_locs_pos, sentence_infos_sem, sentence_locs_sem, aspect_locs_sem, aspect_means_pos, aspect_vars_pos, aspect_means_sem, aspect_vars_sem, labels = data
     for index in get_batch_index(len(sentences), batch_size, is_shuffle):
         feed_dict = {
             'sentences': sentences[index],
@@ -403,11 +424,16 @@ def get_batch_data(data, batch_size, is_shuffle):
             'num': num[index],
             'aspects': aspects[index],
             'aspect_lens': aspect_lens[index],
-            'sentence_infos': sentence_infos[index],
-            'sentence_locs': sentence_locs[index],
-            'aspect_locs': aspect_locs[index],
-            'aspect_means': aspect_means[index],
-            'aspect_vars': aspect_vars[index],
+            'sentence_infos_pos': sentence_infos_pos[index],
+            'sentence_locs_pos': sentence_locs_pos[index],
+            'aspect_locs_pos': aspect_locs_pos[index],
+            'sentence_infos_sem': sentence_infos_sem[index],
+            'sentence_locs_sem': sentence_locs_sem[index],
+            'aspect_locs_sem': aspect_locs_sem[index],
+            'aspect_means_pos': aspect_means_pos[index],
+            'aspect_vars_pos': aspect_vars_pos[index],
+            'aspect_means_sem': aspect_means_sem[index],
+            'aspect_vars_sem': aspect_vars_sem[index],
             'labels': labels[index],
         }
         yield feed_dict, len(index)
